@@ -1,0 +1,5 @@
+"Measure Name","Measure ID","National payment","Number less than national payment","Number same as national payment","Number greater than national payment","Number of hospitals too few","Footnote","Measure start date","Measure end date"
+"Payment for heart attack patients","PAYM_30_AMI","$23,119","196","1923","209","1937","20 - State and national averages do not include VHA hospital data.","07/01/2013","06/30/2016"
+"Payment for heart failure patients","PAYM_30_HF","$16,190","410","2660","553","971","20 - State and national averages do not include VHA hospital data.","07/01/2013","06/30/2016"
+"Payment for pneumonia patients","PAYM_30_PN","$17,026","907","2496","798","454","20 - State and national averages do not include VHA hospital data.","07/01/2013","06/30/2016"
+"Payment for hip/knee replacement patients","PAYM_90_HIP_KNEE","$22,567","1038","1078","680","656","20 - State and national averages do not include VHA hospital data.","04/01/2013","03/31/2016"

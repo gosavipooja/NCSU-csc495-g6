@@ -1,0 +1,795 @@
+HOSPITAL NAME,PROVIDER ID,MSA,MSA TITLE,HCAHPS HLMR,HCAHPS START DATE,HCAHPS END DATE,HCAHPS FOOTNOTE,COMP-HIP-KNEE,COMP START DATE,COMP END DATE,COMP FOOTNOTE,PRO,PRO START DATE,PRO END DATE,PRO FOOTNOTE 
+Southeast Alabama Medical Center,010001,20020,"Dothan, AL",85.39,1-Jul-15,30-Jun-16,,4.2,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Baptist Medical Center South,010023,33860,"Montgomery, AL",84.50,1-Jul-15,30-Jun-16,,2.7,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+"Jackson Hospital and Clinic, Inc.",010024,33860,"Montgomery, AL",86.83,1-Jul-15,30-Jun-16,,2.0,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+"Community Hospital, Inc.",010034,33860,"Montgomery, AL",87.39,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,**
+Flowers Hospital,010055,20020,"Dothan, AL",88.44,1-Jul-15,30-Jun-16,,3.3,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Wiregrass Medical Center,010062,20020,"Dothan, AL",88.72,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,**
+DCH Regional Medical Center,010092,46220,"Tuscaloosa, AL",85.33,1-Jul-15,30-Jun-16,,3.0,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Hale County Hospital,010095,46220,"Tuscaloosa, AL",N/A,1-Jul-15,30-Jun-16,***,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,**
+Elmore Community Hospital,010097,33860,"Montgomery, AL",89.39,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,**
+Prattville Baptist Hospital,010108,33860,"Montgomery, AL",87.61,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,**
+Pickens County Medical Center,010109,46220,"Tuscaloosa, AL",N/A,1-Jul-15,30-Jun-16,***,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,**
+Baptist Medical Center East,010149,33860,"Montgomery, AL",87.17,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,**
+CHI St. Vincent Hospital Hot Springs,040026,26300,"Hot Springs, AR",83.67,1-Jul-15,30-Jun-16,,2.6,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+National Park Medical Center,040078,26300,"Hot Springs, AR",86.39,1-Jul-15,30-Jun-16,,3.2,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Leo N. Levi National Arthritis Hospital,040132,26300,"Hot Springs, AR",N/A,1-Jul-15,30-Jun-16,***,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,**
+St. Rose Hospital,050002,41860,"San Francisco-Oakland-Hayward, CA",82.28,1-Jul-15,30-Jun-16,,3.1,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,*
+Mills-Peninsula Medical Center,050007,41860,"San Francisco-Oakland-Hayward, CA",88.39,1-Jul-15,30-Jun-16,,3.0,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+California Pacific Medical Center-Davies Campus Hospital,050008,41860,"San Francisco-Oakland-Hayward, CA",83.28,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,**
+Pacific Alliance Medical Center,050018,31080,"Los Angeles-Long Beach-Anaheim, CA",82.89,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+LAC-Olive View-UCLA Medical Center,050040,31080,"Los Angeles-Long Beach-Anaheim, CA",84.67,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,**
+Alta Bates Summit Medical Center,050043,41860,"San Francisco-Oakland-Hayward, CA",85.00,1-Jul-15,30-Jun-16,,3.3,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+California Pacific Medical Center-Pacific Campus Hospital,050047,41860,"San Francisco-Oakland-Hayward, CA",83.61,1-Jul-15,30-Jun-16,,2.8,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+California Pacific Medical Center-St. Luke's Campus,050055,41860,"San Francisco-Oakland-Hayward, CA",82.06,1-Jul-15,30-Jun-16,,3.0,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Antelope Valley Hospital,050056,31080,"Los Angeles-Long Beach-Anaheim, CA",81.17,1-Jul-15,30-Jun-16,,2.8,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Glendale Memorial Hospital and Health Center,050058,31080,"Los Angeles-Long Beach-Anaheim, CA",82.94,1-Jul-15,30-Jun-16,,2.4,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Hollywood Presbyterian Medical Center,050063,31080,"Los Angeles-Long Beach-Anaheim, CA",79.61,1-Jul-15,30-Jun-16,,2.6,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Oak Valley District Hospital,050067,33700,"Modesto, CA",81.83,1-Jul-15,30-Jun-16,,2.6,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+St. Joseph Hospital,050069,31080,"Los Angeles-Long Beach-Anaheim, CA",87.17,1-Jul-15,30-Jun-16,,2.4,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Kaiser Foundation Hospital-South San Francisco,050070,41860,"San Francisco-Oakland-Hayward, CA",85.83,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,**
+Kaiser Foundation Hospital-Walnut Creek,050072,41860,"San Francisco-Oakland-Hayward, CA",85.50,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,**
+Kaiser Foundation Hospital-Oakland/Richmond,050075,41860,"San Francisco-Oakland-Hayward, CA",84.56,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+Kaiser Foundation Hospital-San Francisco,050076,41860,"San Francisco-Oakland-Hayward, CA",86.17,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+Providence Little Company of Mary Medical Center San Pedro,050078,31080,"Los Angeles-Long Beach-Anaheim, CA",86.56,1-Jul-15,30-Jun-16,,3.6,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Community Hospital of Huntington Park,050091,31080,"Los Angeles-Long Beach-Anaheim, CA",78.61,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+West Covina Medical Center,050096,31080,"Los Angeles-Long Beach-Anaheim, CA",N/A,1-Jul-15,30-Jun-16,***,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+White Memorial Medical Center,050103,31080,"Los Angeles-Long Beach-Anaheim, CA",83.28,1-Jul-15,30-Jun-16,,2.9,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Saint Francis Medical Center,050104,31080,"Los Angeles-Long Beach-Anaheim, CA",80.78,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+Santa Monica-UCLA Medical Center and Orthopaedic Hospital,050112,31080,"Los Angeles-Long Beach-Anaheim, CA",86.78,1-Jul-15,30-Jun-16,,3.6,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+San Mateo Medical Center,050113,41860,"San Francisco-Oakland-Hayward, CA",82.28,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+Northridge Hospital Medical Center,050116,31080,"Los Angeles-Long Beach-Anaheim, CA",84.06,1-Jul-15,30-Jun-16,,2.7,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+USC Verdugo Hills Hospital,050124,31080,"Los Angeles-Long Beach-Anaheim, CA",81.11,1-Jul-15,30-Jun-16,,2.8,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Valley Presbyterian Hospital,050126,31080,"Los Angeles-Long Beach-Anaheim, CA",84.67,1-Jul-15,30-Jun-16,,2.4,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+San Gabriel Valley Medical Center,050132,31080,"Los Angeles-Long Beach-Anaheim, CA",83.56,1-Jul-15,30-Jun-16,,2.8,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Southern California Hospital at Hollywood,050135,31080,"Los Angeles-Long Beach-Anaheim, CA",73.44,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+Kaiser Foundation Hospital-Panorama City,050137,31080,"Los Angeles-Long Beach-Anaheim, CA",85.89,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+Kaiser Foundation Hospital-Los Angeles,050138,31080,"Los Angeles-Long Beach-Anaheim, CA",85.89,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+Kaiser Foundation Hospital-Downey,050139,31080,"Los Angeles-Long Beach-Anaheim, CA",85.61,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+California Hospital Medical Center,050149,31080,"Los Angeles-Long Beach-Anaheim, CA",81.39,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+Encino Hospital Medical Center,050158,31080,"Los Angeles-Long Beach-Anaheim, CA",84.28,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+St. Jude Medical Center,050168,31080,"Los Angeles-Long Beach-Anaheim, CA",86.72,1-Jul-15,30-Jun-16,,2.8,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Presbyterian Intercommunity Hospital,050169,31080,"Los Angeles-Long Beach-Anaheim, CA",87.28,1-Jul-15,30-Jun-16,,2.6,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Emanuel Medical Center,050179,33700,"Modesto, CA",84.28,1-Jul-15,30-Jun-16,,3.3,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,*
+John Muir Medical Center-Walnut Creek Campus,050180,41860,"San Francisco-Oakland-Hayward, CA",86.56,1-Jul-15,30-Jun-16,,2.3,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+St. Mary Medical Center,050191,31080,"Los Angeles-Long Beach-Anaheim, CA",83.00,1-Jul-15,30-Jun-16,,3.1,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,*
+Washington Hospital,050195,41860,"San Francisco-Oakland-Hayward, CA",86.22,1-Jul-15,30-Jun-16,,1.9,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Sequoia Hospital,050197,41860,"San Francisco-Oakland-Hayward, CA",87.33,1-Jul-15,30-Jun-16,,2.3,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Glendora Community Hospital,050205,31080,"Los Angeles-Long Beach-Anaheim, CA",N/A,1-Jul-15,30-Jun-16,***,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,**
+Alameda Hospital,050211,41860,"San Francisco-Oakland-Hayward, CA",81.00,1-Jul-15,30-Jun-16,,2.5,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Hoag Memorial Hospital Presbyterian,050224,31080,"Los Angeles-Long Beach-Anaheim, CA",86.72,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+AHMC Anaheim Regional Medical Center,050226,31080,"Los Angeles-Long Beach-Anaheim, CA",83.50,1-Jul-15,30-Jun-16,,2.6,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+San Francisco General Hospital,050228,41860,"San Francisco-Oakland-Hayward, CA",81.94,1-Jul-15,30-Jun-16,,3.0,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Garden Grove Hospital & Medical Center,050230,31080,"Los Angeles-Long Beach-Anaheim, CA",80.39,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+Pomona Valley Hospital Medical Center,050231,31080,"Los Angeles-Long Beach-Anaheim, CA",86.72,1-Jul-15,30-Jun-16,,3.1,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Providence Saint Joseph Medical Center,050235,31080,"Los Angeles-Long Beach-Anaheim, CA",85.61,1-Jul-15,30-Jun-16,,2.8,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Glendale Adventist Medical Center,050239,31080,"Los Angeles-Long Beach-Anaheim, CA",85.78,1-Jul-15,30-Jun-16,,3.7,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Ronald Reagan UCLA Medical Center,050262,31080,"Los Angeles-Long Beach-Anaheim, CA",87.61,1-Jul-15,30-Jun-16,,2.5,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Contra Costa Regional Medical Center,050276,41860,"San Francisco-Oakland-Hayward, CA",82.33,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,
+Providence Holy Cross Medical Center,050278,31080,"Los Angeles-Long Beach-Anaheim, CA",85.56,1-Jul-15,30-Jun-16,,2.4,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Alhambra Hospital Medical Center,050281,31080,"Los Angeles-Long Beach-Anaheim, CA",83.44,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,**
+Valleycare Medical Center,050283,41860,"San Francisco-Oakland-Hayward, CA",86.83,1-Jul-15,30-Jun-16,,2.1,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Seton Medical Center,050289,41860,"San Francisco-Oakland-Hayward, CA",83.17,1-Jul-15,30-Jun-16,,2.9,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Providence Saint John's Health Center,050290,31080,"Los Angeles-Long Beach-Anaheim, CA",84.50,1-Jul-15,30-Jun-16,,1.4,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Alta Bates Summit Medical Center-Alta Bates Campus,050305,41860,"San Francisco-Oakland-Hayward, CA",81.11,1-Jul-15,30-Jun-16,,2.2,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Highland Hospital,050320,41860,"San Francisco-Oakland-Hayward, CA",81.61,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+"University of California, Irvine Medical Center",050348,31080,"Los Angeles-Long Beach-Anaheim, CA",86.33,1-Jul-15,30-Jun-16,,3.5,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Beverly Hospital,050350,31080,"Los Angeles-Long Beach-Anaheim, CA",82.89,1-Jul-15,30-Jun-16,,2.6,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Providence Little Company of Mary Medical Center Torrance,050353,31080,"Los Angeles-Long Beach-Anaheim, CA",85.11,1-Jul-15,30-Jun-16,,3.3,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Marin General Hospital,050360,41860,"San Francisco-Oakland-Hayward, CA",82.44,1-Jul-15,30-Jun-16,,2.7,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+LAC-USC Medical Center,050373,31080,"Los Angeles-Long Beach-Anaheim, CA",83.39,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,
+LAC-Harbor-UCLA Medical Center,050376,31080,"Los Angeles-Long Beach-Anaheim, CA",81.17,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+Pacifica Hospital of the Valley,050378,31080,"Los Angeles-Long Beach-Anaheim, CA",79.33,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+"Citrus Valley Medical Center, Inter-Community Campus",050382,31080,"Los Angeles-Long Beach-Anaheim, CA",83.61,1-Jul-15,30-Jun-16,,2.5,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Downey Regional Medical Center,050393,31080,"Los Angeles-Long Beach-Anaheim, CA",81.44,1-Jul-15,30-Jun-16,,2.8,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Chinese Hospital,050407,41860,"San Francisco-Oakland-Hayward, CA",83.67,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+Kaiser Foundation Hospital-South Bay,050411,31080,"Los Angeles-Long Beach-Anaheim, CA",86.06,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+West Anaheim Medical Center,050426,31080,"Los Angeles-Long Beach-Anaheim, CA",77.72,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+Huntington Memorial Hospital,050438,31080,"Los Angeles-Long Beach-Anaheim, CA",85.89,1-Jul-15,30-Jun-16,,2.0,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Doctors Medical Center,050464,33700,"Modesto, CA",83.67,1-Jul-15,30-Jun-16,,4.0,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,*
+Memorial Hospital of Gardena,050468,31080,"Los Angeles-Long Beach-Anaheim, CA",76.11,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,7,N,1-Jul-16,31-Aug-16,**
+Good Samaritan Hospital,050471,31080,"Los Angeles-Long Beach-Anaheim, CA",83.78,1-Jul-15,30-Jun-16,,3.0,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Eden Medical Center,050488,41860,"San Francisco-Oakland-Hayward, CA",85.39,1-Jul-15,30-Jun-16,,2.9,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+John Muir Medical Center-Concord Campus,050496,41860,"San Francisco-Oakland-Hayward, CA",86.78,1-Jul-15,30-Jun-16,,2.6,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Saint Vincent Medical Center,050502,31080,"Los Angeles-Long Beach-Anaheim, CA",83.50,1-Jul-15,30-Jun-16,,2.2,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Kaiser Foundation Hospital,050510,41860,"San Francisco-Oakland-Hayward, CA",86.50,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,**
+Kaiser Foundation Hospital-Fremont,050512,41860,"San Francisco-Oakland-Hayward, CA",85.56,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,**
+Sutter Delta Medical Center,050523,41860,"San Francisco-Oakland-Hayward, CA",81.83,1-Jul-15,30-Jun-16,,3.5,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,*
+Huntington Beach Hospital,050526,31080,"Los Angeles-Long Beach-Anaheim, CA",75.44,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,7,N,1-Jul-16,31-Aug-16,
+Kaiser Foundation Hospital-Redwood City,050541,41860,"San Francisco-Oakland-Hayward, CA",87.33,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,**
+College Hospital Costa Mesa,050543,31080,"Los Angeles-Long Beach-Anaheim, CA",N/A,1-Jul-15,30-Jun-16,***,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,**
+Fairview Developmental Center,050548,31080,"Los Angeles-Long Beach-Anaheim, CA",N/A,1-Jul-15,30-Jun-16,***,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,**
+Motion Picture and Television Hospital,050552,31080,"Los Angeles-Long Beach-Anaheim, CA",N/A,1-Jul-15,30-Jun-16,***,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,**
+Memorial Medical Center,050557,33700,"Modesto, CA",84.78,1-Jul-15,30-Jun-16,,3.1,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,*
+Kaiser Foundation Hospital-West Los Angeles,050561,31080,"Los Angeles-Long Beach-Anaheim, CA",85.39,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+Mission Hospital Regional Medical Center,050567,31080,"Los Angeles-Long Beach-Anaheim, CA",85.78,1-Jul-15,30-Jun-16,,2.4,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Fountain Valley Regional Hospital and Medical Center,050570,31080,"Los Angeles-Long Beach-Anaheim, CA",82.94,1-Jul-15,30-Jun-16,,3.2,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,*
+Gardens Regional Hospital and Medical Center,050575,31080,"Los Angeles-Long Beach-Anaheim, CA",76.78,1-Jul-15,30-Jun-16,,2.8,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,**
+La Palma Intercommunity Hospital,050580,31080,"Los Angeles-Long Beach-Anaheim, CA",78.83,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+Lakewood Regional Medical Center,050581,31080,"Los Angeles-Long Beach-Anaheim, CA",82.67,1-Jul-15,30-Jun-16,,2.9,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+San Dimas Community Hospital,050588,31080,"Los Angeles-Long Beach-Anaheim, CA",82.28,1-Jul-15,30-Jun-16,,3.1,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,*
+Placentia Linda Hospital,050589,31080,"Los Angeles-Long Beach-Anaheim, CA",84.78,1-Jul-15,30-Jun-16,,2.3,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Foothill Presbyterian Hospital,050597,31080,"Los Angeles-Long Beach-Anaheim, CA",85.28,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+Kaiser Foundation Hospital-Orange County-Anaheim,050609,31080,"Los Angeles-Long Beach-Anaheim, CA",87.94,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+Henry Mayo Newhall Hospital,050624,31080,"Los Angeles-Long Beach-Anaheim, CA",84.33,1-Jul-15,30-Jun-16,,2.4,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Cedars-Sinai Medical Center,050625,31080,"Los Angeles-Long Beach-Anaheim, CA",85.94,1-Jul-15,30-Jun-16,,1.7,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+East Los Angeles Doctors Hospital,050641,31080,"Los Angeles-Long Beach-Anaheim, CA",83.17,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,**
+Los Angeles Community Hospital,050663,31080,"Los Angeles-Long Beach-Anaheim, CA",68.28,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+Laguna Honda Hospital & Rehabilitation Center,050668,41860,"San Francisco-Oakland-Hayward, CA",N/A,1-Jul-15,30-Jun-16,***,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,**
+Kaiser Foundation Hospital-Woodland Hills,050677,31080,"Los Angeles-Long Beach-Anaheim, CA",86.89,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,**
+San Ramon Regional Medical Center,050689,41860,"San Francisco-Oakland-Hayward, CA",84.06,1-Jul-15,30-Jun-16,,2.6,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Keck Hospital of USC,050696,31080,"Los Angeles-Long Beach-Anaheim, CA",86.56,1-Jul-15,30-Jun-16,,2.3,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Mission Community Hospital,050704,31080,"Los Angeles-Long Beach-Anaheim, CA",80.50,1-Jul-15,30-Jun-16,,2.6,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+LAC/Rancho Los Amigos National Rehabilitation Center,050717,31080,"Los Angeles-Long Beach-Anaheim, CA",85.83,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+Kaiser Foundation Hospital-Baldwin Park,050723,31080,"Los Angeles-Long Beach-Anaheim, CA",86.72,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+Stanislaus Surgical Hospital,050726,33700,"Modesto, CA",91.28,1-Jul-15,30-Jun-16,,2.2,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Community Hospital of Long Beach,050727,31080,"Los Angeles-Long Beach-Anaheim, CA",77.06,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,7,N,1-Jul-16,31-Aug-16,
+Whittier Hospital Medical Center,050735,31080,"Los Angeles-Long Beach-Anaheim, CA",83.00,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+Monterey Park Hospital,050736,31080,"Los Angeles-Long Beach-Anaheim, CA",82.89,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+Garfield Medical Center,050737,31080,"Los Angeles-Long Beach-Anaheim, CA",83.11,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+Greater El Monte Community Hospital,050738,31080,"Los Angeles-Long Beach-Anaheim, CA",80.61,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,**
+Centinela Hospital Medical Center,050739,31080,"Los Angeles-Long Beach-Anaheim, CA",79.94,1-Jul-15,30-Jun-16,,2.9,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Marina Del Rey Hospital,050740,31080,"Los Angeles-Long Beach-Anaheim, CA",84.67,1-Jul-15,30-Jun-16,,2.7,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Olympia Medical Center,050742,31080,"Los Angeles-Long Beach-Anaheim, CA",76.56,1-Jul-15,30-Jun-16,,2.5,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Anaheim Global Medical Center,050744,31080,"Los Angeles-Long Beach-Anaheim, CA",80.94,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+Chapman Global Medical Center,050745,31080,"Los Angeles-Long Beach-Anaheim, CA",78.89,1-Jul-15,30-Jun-16,,2.4,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Orange County Global Medical Center,050746,31080,"Los Angeles-Long Beach-Anaheim, CA",80.56,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+South Coast Global Medical Center,050747,31080,"Los Angeles-Long Beach-Anaheim, CA",79.61,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,**
+Miracle Mile Medical Center,050751,31080,"Los Angeles-Long Beach-Anaheim, CA",N/A,1-Jul-15,30-Jun-16,***,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+Menlo Park Surgical Hospital,050754,41860,"San Francisco-Oakland-Hayward, CA",N/A,1-Jul-15,30-Jun-16,***,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,**
+Sherman Oaks Hospital,050755,31080,"Los Angeles-Long Beach-Anaheim, CA",75.78,1-Jul-15,30-Jun-16,,2.4,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Kaiser Foundation Hospital-Antioch,050760,41860,"San Francisco-Oakland-Hayward, CA",85.89,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+Providence Tarzana Medical Center,050761,31080,"Los Angeles-Long Beach-Anaheim, CA",83.28,1-Jul-15,30-Jun-16,,3.4,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,*
+Silver Lake Medical Center,050763,31080,"Los Angeles-Long Beach-Anaheim, CA",N/A,1-Jul-15,30-Jun-16,***,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+Hoag Orthopedic Institute,050769,31080,"Los Angeles-Long Beach-Anaheim, CA",91.17,1-Jul-15,30-Jun-16,,1.7,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Coast Plaza Hospital,050771,31080,"Los Angeles-Long Beach-Anaheim, CA",76.56,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+San Leandro Hospital,050773,41860,"San Francisco-Oakland-Hayward, CA",82.78,1-Jul-15,30-Jun-16,,2.8,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+College Medical Center,050776,31080,"Los Angeles-Long Beach-Anaheim, CA",78.17,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+Kaiser Foundation Hospital-San Leandro,050777,41860,"San Francisco-Oakland-Hayward, CA",85.28,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+"Martin Luther King, Jr. Community Hospital",050779,31080,"Los Angeles-Long Beach-Anaheim, CA",N/A,1-Jul-15,30-Jun-16,***,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,**
+Foothill Regional Medical Center,050780,31080,"Los Angeles-Long Beach-Anaheim, CA",N/A,1-Jul-15,30-Jun-16,***,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,
+Casa Colina Hospital,050782,31080,"Los Angeles-Long Beach-Anaheim, CA",N/A,1-Jul-15,30-Jun-16,***,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,
+Longmont United Hospital,060003,14500,"Boulder, CO",88.67,1-Jul-15,30-Jun-16,,2.7,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Platte Valley Medical Center,060004,19740,"Denver-Aurora-Lakewood, CO",87.94,1-Jul-15,30-Jun-16,,2.5,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Lutheran Medical Center,060009,19740,"Denver-Aurora-Lakewood, CO",87.39,1-Jul-15,30-Jun-16,,2.4,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Denver Health Medical Center,060011,19740,"Denver-Aurora-Lakewood, CO",83.50,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+Presbyterian St. Luke's Medical Center,060014,19740,"Denver-Aurora-Lakewood, CO",88.33,1-Jul-15,30-Jun-16,,2.6,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Centura Health-St. Anthony Hospital,060015,19740,"Denver-Aurora-Lakewood, CO",85.06,1-Jul-15,30-Jun-16,,3.5,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,**
+University of Colorado Hospital Anschutz Inpatient Pavilion,060024,19740,"Denver-Aurora-Lakewood, CO",87.89,1-Jul-15,30-Jun-16,,2.6,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Foothills Hospital,060027,14500,"Boulder, CO",86.67,1-Jul-15,30-Jun-16,,3.4,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Saint Joseph Hospital,060028,19740,"Denver-Aurora-Lakewood, CO",88.67,1-Jul-15,30-Jun-16,,2.0,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Rose Medical Center,060032,19740,"Denver-Aurora-Lakewood, CO",87.72,1-Jul-15,30-Jun-16,,3.3,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Swedish Medical Center,060034,19740,"Denver-Aurora-Lakewood, CO",86.22,1-Jul-15,30-Jun-16,,2.8,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+North Suburban Medical Center,060065,19740,"Denver-Aurora-Lakewood, CO",86.44,1-Jul-15,30-Jun-16,,3.8,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Medical Center of Aurora,060100,19740,"Denver-Aurora-Lakewood, CO",87.61,1-Jul-15,30-Jun-16,,3.3,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Centura Health-Avista Adventist Hospital,060103,14500,"Boulder, CO",87.83,1-Jul-15,30-Jun-16,,2.6,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+St. Anthony North Health Campus,060104,19740,"Denver-Aurora-Lakewood, CO",84.61,1-Jul-15,30-Jun-16,,3.0,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,*
+National Jewish Health,060107,19740,"Denver-Aurora-Lakewood, CO",N/A,1-Jul-15,30-Jun-16,***,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,**
+Sky Ridge Medical Center,060112,19740,"Denver-Aurora-Lakewood, CO",87.50,1-Jul-15,30-Jun-16,,3.5,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Centura Health-Littleton Adventist Hospital,060113,19740,"Denver-Aurora-Lakewood, CO",86.28,1-Jul-15,30-Jun-16,,2.4,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Parker Adventist Hospital,060114,19740,"Denver-Aurora-Lakewood, CO",87.83,1-Jul-15,30-Jun-16,,4.2,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Good Samaritan Medical Center,060116,14500,"Boulder, CO",87.17,1-Jul-15,30-Jun-16,,2.5,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+OrthoColorado Hospital at St. Anthony Medical Campus,060124,19740,"Denver-Aurora-Lakewood, CO",89.78,1-Jul-15,30-Jun-16,,2.4,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Castle Rock Adventist Hospital,060125,19740,"Denver-Aurora-Lakewood, CO",86.83,1-Jul-15,30-Jun-16,,2.8,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Waterbury Hospital,070005,35300,"New Haven-Milford, CT",83.17,1-Jul-15,30-Jun-16,,3.0,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Lawrence & Memorial Hospital,070007,35980,"Norwich-New London, CT",85.94,1-Jul-15,30-Jun-16,,2.5,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Saint Mary's Hospital,070016,35300,"New Haven-Milford, CT",85.00,1-Jul-15,30-Jun-16,,2.6,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Midstate Medical Center,070017,35300,"New Haven-Milford, CT",85.33,1-Jul-15,30-Jun-16,,4.7,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+"Milford Hospital, Inc.",070019,35300,"New Haven-Milford, CT",88.06,1-Jul-15,30-Jun-16,,2.5,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,**
+William W. Backus Hospital,070024,35980,"Norwich-New London, CT",86.78,1-Jul-15,30-Jun-16,,4.0,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Griffin Hospital,070031,35300,"New Haven-Milford, CT",87.94,1-Jul-15,30-Jun-16,,2.5,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Connecticut Hospice Inc.,070038,35300,"New Haven-Milford, CT",N/A,1-Jul-15,30-Jun-16,***,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,**
+Masonicare Health Center,070039,35300,"New Haven-Milford, CT",N/A,1-Jul-15,30-Jun-16,***,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,**
+Bethesda Hospital East,100002,33100,"Miami-Fort Lauderdale-West Palm Beach, FL",82.89,1-Jul-15,30-Jun-16,,1.9,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Florida Hospital,100007,36740,"Orlando-Kissimmee-Sanford, FL",87.28,1-Jul-15,30-Jun-16,,2.7,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Baptist Hospital of Miami,100008,33100,"Miami-Fort Lauderdale-West Palm Beach, FL",86.67,1-Jul-15,30-Jun-16,,2.0,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+University of Miami Hospital,100009,33100,"Miami-Fort Lauderdale-West Palm Beach, FL",82.33,1-Jul-15,30-Jun-16,,2.6,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Naples Community Hospital,100018,34940,"Naples-Immokalee-Marco Island, FL",81.50,1-Jul-15,30-Jun-16,,2.5,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Jackson Memorial Hospital,100022,33100,"Miami-Fort Lauderdale-West Palm Beach, FL",82.72,1-Jul-15,30-Jun-16,,2.5,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Sacred Heart Hospital,100025,37860,"Pensacola-Ferry Pass-Brent, FL",85.61,1-Jul-15,30-Jun-16,,2.7,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+North Shore Medical Center,100029,33100,"Miami-Fort Lauderdale-West Palm Beach, FL",80.83,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+Health Central,100030,36740,"Orlando-Kissimmee-Sanford, FL",85.39,1-Jul-15,30-Jun-16,,2.1,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Bayfront Health-St Petersburg,100032,45300,"Tampa-St. Petersburg-Clearwater, FL",82.39,1-Jul-15,30-Jun-16,,3.7,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,*
+Mount Sinai Medical Center,100034,33100,"Miami-Fort Lauderdale-West Palm Beach, FL",83.94,1-Jul-15,30-Jun-16,,2.7,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Memorial Regional Hospital,100038,33100,"Miami-Fort Lauderdale-West Palm Beach, FL",86.61,1-Jul-15,30-Jun-16,,2.6,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Broward Health Medical Center,100039,33100,"Miami-Fort Lauderdale-West Palm Beach, FL",83.61,1-Jul-15,30-Jun-16,,2.6,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Mease Dunedin Hospital,100043,45300,"Tampa-St. Petersburg-Clearwater, FL",89.33,1-Jul-15,30-Jun-16,,2.4,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Martin Medical Center,100044,38940,"Port St. Lucie, FL",83.72,1-Jul-15,30-Jun-16,,2.4,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Florida Hospital Zephyrhills,100046,45300,"Tampa-St. Petersburg-Clearwater, FL",87.22,1-Jul-15,30-Jun-16,,3.4,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Jay Hospital,100048,37860,"Pensacola-Ferry Pass-Brent, FL",89.28,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,**
+Larkin Community Hospital Palm Springs Campus,100050,33100,"Miami-Fort Lauderdale-West Palm Beach, FL",81.06,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+South Lake Hospital,100051,36740,"Orlando-Kissimmee-Sanford, FL",84.78,1-Jul-15,30-Jun-16,,3.4,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,*
+Hialeah Hospital,100053,33100,"Miami-Fort Lauderdale-West Palm Beach, FL",83.28,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+Florida Hospital North Pinellas,100055,45300,"Tampa-St. Petersburg-Clearwater, FL",86.11,1-Jul-15,30-Jun-16,,2.8,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Florida Hospital Waterman,100057,36740,"Orlando-Kissimmee-Sanford, FL",86.67,1-Jul-15,30-Jun-16,,3.0,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Morton Plant North Bay Hospital,100063,45300,"Tampa-St. Petersburg-Clearwater, FL",85.67,1-Jul-15,30-Jun-16,,2.2,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+St. Anthony's Hospital,100067,45300,"Tampa-St. Petersburg-Clearwater, FL",85.94,1-Jul-15,30-Jun-16,,3.9,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Florida Hospital Carrollwood,100069,45300,"Tampa-St. Petersburg-Clearwater, FL",87.89,1-Jul-15,30-Jun-16,,3.4,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Bayfront Health Brooksville,100071,45300,"Tampa-St. Petersburg-Clearwater, FL",77.56,1-Jul-15,30-Jun-16,,2.8,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+St. Joseph's Hospital,100075,45300,"Tampa-St. Petersburg-Clearwater, FL",87.44,1-Jul-15,30-Jun-16,,4.1,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Leesburg Regional Medical Center,100084,36740,"Orlando-Kissimmee-Sanford, FL",81.50,1-Jul-15,30-Jun-16,,2.4,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Broward Health North,100086,33100,"Miami-Fort Lauderdale-West Palm Beach, FL",86.89,1-Jul-15,30-Jun-16,,2.0,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Baptist Hospital,100093,37860,"Pensacola-Ferry Pass-Brent, FL",86.78,1-Jul-15,30-Jun-16,,2.1,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Indian River Medical Center,100105,42680,"Sebastian-Vero Beach, FL",82.72,1-Jul-15,30-Jun-16,,3.1,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,*
+Osceola Regional Medical Center,100110,36740,"Orlando-Kissimmee-Sanford, FL",82.67,1-Jul-15,30-Jun-16,,3.2,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,*
+UF Health Shands Hospital,100113,23540,"Gainesville, FL",85.11,1-Jul-15,30-Jun-16,,3.7,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Santa Rosa Medical Center,100124,37860,"Pensacola-Ferry Pass-Brent, FL",82.61,1-Jul-15,30-Jun-16,,2.5,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Homestead Hospital,100125,33100,"Miami-Fort Lauderdale-West Palm Beach, FL",86.17,1-Jul-15,30-Jun-16,,2.8,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Palms of Pasadena Hospital,100126,45300,"Tampa-St. Petersburg-Clearwater, FL",83.33,1-Jul-15,30-Jun-16,,1.9,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Morton Plant Hospital,100127,45300,"Tampa-St. Petersburg-Clearwater, FL",87.56,1-Jul-15,30-Jun-16,,2.5,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Tampa General Hospital,100128,45300,"Tampa-St. Petersburg-Clearwater, FL",85.67,1-Jul-15,30-Jun-16,,2.2,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Lakeside Medical Center,100130,33100,"Miami-Fort Lauderdale-West Palm Beach, FL",86.28,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,**
+South Florida Baptist Hospital,100132,45300,"Tampa-St. Petersburg-Clearwater, FL",86.61,1-Jul-15,30-Jun-16,,2.8,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+South Miami Hospital,100154,33100,"Miami-Fort Lauderdale-West Palm Beach, FL",86.39,1-Jul-15,30-Jun-16,,3.0,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Central Florida Regional Hospital,100161,36740,"Orlando-Kissimmee-Sanford, FL",82.61,1-Jul-15,30-Jun-16,,2.7,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Plantation General Hospital,100167,33100,"Miami-Fort Lauderdale-West Palm Beach, FL",83.11,1-Jul-15,30-Jun-16,,2.5,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Boca Raton Regional Hospital,100168,33100,"Miami-Fort Lauderdale-West Palm Beach, FL",85.00,1-Jul-15,30-Jun-16,,2.8,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Florida Hospital Tampa,100173,45300,"Tampa-St. Petersburg-Clearwater, FL",84.78,1-Jul-15,30-Jun-16,,2.3,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Palm Beach Gardens Medical Center,100176,33100,"Miami-Fort Lauderdale-West Palm Beach, FL",83.50,1-Jul-15,30-Jun-16,,2.2,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+St. Petersburg General Hospital,100180,45300,"Tampa-St. Petersburg-Clearwater, FL",83.33,1-Jul-15,30-Jun-16,,2.9,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Larkin Community Hospital,100181,33100,"Miami-Fort Lauderdale-West Palm Beach, FL",89.28,1-Jul-15,30-Jun-16,,2.1,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Coral Gables Hospital,100183,33100,"Miami-Fort Lauderdale-West Palm Beach, FL",83.94,1-Jul-15,30-Jun-16,,2.5,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Palmetto General Hospital,100187,33100,"Miami-Fort Lauderdale-West Palm Beach, FL",80.33,1-Jul-15,30-Jun-16,,2.3,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Northwest Medical Center,100189,33100,"Miami-Fort Lauderdale-West Palm Beach, FL",80.61,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+Medical Center of Trinity,100191,45300,"Tampa-St. Petersburg-Clearwater, FL",84.78,1-Jul-15,30-Jun-16,,2.8,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Broward Health Imperial Point,100200,33100,"Miami-Fort Lauderdale-West Palm Beach, FL",84.11,1-Jul-15,30-Jun-16,,2.4,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+North Florida Regional Medical Center,100204,23540,"Gainesville, FL",84.22,1-Jul-15,30-Jun-16,,3.6,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,*
+Memorial Hospital of Tampa,100206,45300,"Tampa-St. Petersburg-Clearwater, FL",84.44,1-Jul-15,30-Jun-16,,2.6,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Kendall Regional Medical Center,100209,33100,"Miami-Fort Lauderdale-West Palm Beach, FL",81.89,1-Jul-15,30-Jun-16,,3.2,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,*
+Bayfront Health Dade City,100211,45300,"Tampa-St. Petersburg-Clearwater, FL",81.50,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+Sebastian River Medical Center,100217,42680,"Sebastian-Vero Beach, FL",82.22,1-Jul-15,30-Jun-16,,3.6,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,*
+University Hospital and Medical Center,100224,33100,"Miami-Fort Lauderdale-West Palm Beach, FL",81.78,1-Jul-15,30-Jun-16,,2.8,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Memorial Hospital Pembroke,100230,33100,"Miami-Fort Lauderdale-West Palm Beach, FL",88.00,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+West Florida Hospital,100231,37860,"Pensacola-Ferry Pass-Brent, FL",87.17,1-Jul-15,30-Jun-16,,4.1,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Northside Hospital,100238,45300,"Tampa-St. Petersburg-Clearwater, FL",83.39,1-Jul-15,30-Jun-16,,3.0,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,*
+Anne Bates Leach Eye Hospital,100240,33100,"Miami-Fort Lauderdale-West Palm Beach, FL",N/A,1-Jul-15,30-Jun-16,***,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,**
+Brandon Regional Hospital,100243,45300,"Tampa-St. Petersburg-Clearwater, FL",82.50,1-Jul-15,30-Jun-16,,2.7,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,**
+Lawnwood Regional Medical Center & Heart Institute,100246,38940,"Port St. Lucie, FL",81.89,1-Jul-15,30-Jun-16,,3.2,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,*
+Largo Medical Center,100248,45300,"Tampa-St. Petersburg-Clearwater, FL",84.61,1-Jul-15,30-Jun-16,,3.7,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,*
+Tampa Community Hospital,100255,45300,"Tampa-St. Petersburg-Clearwater, FL",84.28,1-Jul-15,30-Jun-16,,3.3,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,*
+Regional Medical Center Bayonet Point,100256,45300,"Tampa-St. Petersburg-Clearwater, FL",83.11,1-Jul-15,30-Jun-16,,1.7,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Delray Medical Center,100258,33100,"Miami-Fort Lauderdale-West Palm Beach, FL",79.00,1-Jul-15,30-Jun-16,,1.9,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+South Bay Hospital,100259,45300,"Tampa-St. Petersburg-Clearwater, FL",82.00,1-Jul-15,30-Jun-16,,2.6,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+St. Lucie Medical Center,100260,38940,"Port St. Lucie, FL",85.17,1-Jul-15,30-Jun-16,,3.0,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Oak Hill Hospital,100264,45300,"Tampa-St. Petersburg-Clearwater, FL",85.17,1-Jul-15,30-Jun-16,,2.7,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Mease Countryside Hospital,100265,45300,"Tampa-St. Petersburg-Clearwater, FL",87.50,1-Jul-15,30-Jun-16,,2.8,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Gulf Breeze Hospital,100266,37860,"Pensacola-Ferry Pass-Brent, FL",88.50,1-Jul-15,30-Jun-16,,3.1,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+West Boca Medical Center,100268,33100,"Miami-Fort Lauderdale-West Palm Beach, FL",81.94,1-Jul-15,30-Jun-16,,2.4,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Palms West Hospital,100269,33100,"Miami-Fort Lauderdale-West Palm Beach, FL",82.89,1-Jul-15,30-Jun-16,,3.3,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,*
+Broward Health Coral Springs,100276,33100,"Miami-Fort Lauderdale-West Palm Beach, FL",83.44,1-Jul-15,30-Jun-16,,2.7,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Douglas Gardens Hospital,100277,33100,"Miami-Fort Lauderdale-West Palm Beach, FL",N/A,1-Jul-15,30-Jun-16,***,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,**
+Memorial Hospital West,100281,33100,"Miami-Fort Lauderdale-West Palm Beach, FL",86.83,1-Jul-15,30-Jun-16,,3.5,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Westchester General Hospital,100284,33100,"Miami-Fort Lauderdale-West Palm Beach, FL",83.89,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+Memorial Hospital Miramar,100285,33100,"Miami-Fort Lauderdale-West Palm Beach, FL",87.83,1-Jul-15,30-Jun-16,,3.0,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Physicians Regional Medical Center-Pine Ridge,100286,34940,"Naples-Immokalee-Marco Island, FL",80.61,1-Jul-15,30-Jun-16,,2.3,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Good Samaritan Medical Center,100287,33100,"Miami-Fort Lauderdale-West Palm Beach, FL",82.83,1-Jul-15,30-Jun-16,,3.0,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+St. Mary's Medical Center,100288,33100,"Miami-Fort Lauderdale-West Palm Beach, FL",81.11,1-Jul-15,30-Jun-16,,2.0,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Cleveland Clinic Hospital,100289,33100,"Miami-Fort Lauderdale-West Palm Beach, FL",87.33,1-Jul-15,30-Jun-16,,2.2,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Doctors Hospital,100296,33100,"Miami-Fort Lauderdale-West Palm Beach, FL",86.33,1-Jul-15,30-Jun-16,,2.0,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+St. Cloud Regional Medical Center,100302,36740,"Orlando-Kissimmee-Sanford, FL",78.94,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+West Kendall Baptist Hospital,100314,33100,"Miami-Fort Lauderdale-West Palm Beach, FL",86.11,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+Florida Hospital Wesley Chapel,100319,45300,"Tampa-St. Petersburg-Clearwater, FL",89.61,1-Jul-15,30-Jun-16,,2.1,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Poinciana Medical Center,100320,36740,"Orlando-Kissimmee-Sanford, FL",83.17,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,**
+Promise Hospital of Miami,100326,33100,"Miami-Fort Lauderdale-West Palm Beach, FL",N/A,1-Jul-15,30-Jun-16,***,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,**
+The Miami Medical Center,100328,33100,"Miami-Fort Lauderdale-West Palm Beach, FL",N/A,1-Jul-15,30-Jun-16,***,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,**
+St. Mary's Hospital,110006,12020,"Athens-Clarke County, GA",87.78,1-Jul-15,30-Jun-16,,2.7,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+"Northeast Georgia Medical Center, Inc.",110029,23580,"Gainesville, GA",86.89,1-Jul-15,30-Jun-16,,1.7,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Athens Regional Medical Center,110074,12020,"Athens-Clarke County, GA",86.56,1-Jul-15,30-Jun-16,,3.2,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Alton Memorial Hospital,140002,41180,"St. Louis, MO-IL",87.00,1-Jul-15,30-Jun-16,,3.6,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+OSF Saint Anthony's Health Center,140052,41180,"St. Louis, MO-IL",88.00,1-Jul-15,30-Jun-16,,2.9,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Jersey Community Hospital,140059,41180,"St. Louis, MO-IL",89.17,1-Jul-15,30-Jun-16,,2.8,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+"Touchette Regional Hospital, Inc.",140077,41180,"St. Louis, MO-IL",84.00,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+Gateway Regional Medical Center,140125,41180,"St. Louis, MO-IL",82.67,1-Jul-15,30-Jun-16,,2.2,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Decatur Memorial Hospital,140135,19500,"Decatur, IL",85.89,1-Jul-15,30-Jun-16,,2.1,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Greenville Regional Hospital,140137,41180,"St. Louis, MO-IL",89.11,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,**
+St. Joseph Hospital,140145,41180,"St. Louis, MO-IL",93.00,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+St. Mary's Hospital,140166,19500,"Decatur, IL",86.28,1-Jul-15,30-Jun-16,,3.1,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Memorial Hospital,140185,41180,"St. Louis, MO-IL",86.33,1-Jul-15,30-Jun-16,,3.3,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+St. Elizabeth's Hospital,140187,41180,"St. Louis, MO-IL",87.61,1-Jul-15,30-Jun-16,,3.1,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Anderson Hospital,140289,41180,"St. Louis, MO-IL",85.28,1-Jul-15,30-Jun-16,,2.2,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Memorial Hospital East,140307,41180,"St. Louis, MO-IL",N/A,1-Jul-15,30-Jun-16,***,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,
+Johnson Memorial Hospital,150001,26900,"Indianapolis-Carmel-Anderson, IN",88.33,1-Jul-15,30-Jun-16,,3.2,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Hendricks Regional Health,150005,26900,"Indianapolis-Carmel-Anderson, IN",89.11,1-Jul-15,30-Jun-16,,2.3,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Saint Joseph Regional Medical Center,150012,43780,"South Bend-Mishawaka, IN-MI",85.39,1-Jul-15,30-Jun-16,,1.7,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Eskenazi Health,150024,26900,"Indianapolis-Carmel-Anderson, IN",84.11,1-Jul-15,30-Jun-16,,2.9,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Hancock Regional Hospital,150037,26900,"Indianapolis-Carmel-Anderson, IN",89.50,1-Jul-15,30-Jun-16,,2.6,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Indiana University Health,150056,26900,"Indianapolis-Carmel-Anderson, IN",84.39,1-Jul-15,30-Jun-16,,3.7,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,*
+Franciscan St. Francis Health-Mooresville,150057,26900,"Indianapolis-Carmel-Anderson, IN",88.67,1-Jul-15,30-Jun-16,,2.3,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Memorial Hospital of South Bend,150058,43780,"South Bend-Mishawaka, IN-MI",86.56,1-Jul-15,30-Jun-16,,2.4,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Riverview Health,150059,26900,"Indianapolis-Carmel-Anderson, IN",89.22,1-Jul-15,30-Jun-16,,2.7,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Community Hospital East,150074,26900,"Indianapolis-Carmel-Anderson, IN",88.44,1-Jul-15,30-Jun-16,,3.9,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+St Vincent Hospital & Health Services,150084,26900,"Indianapolis-Carmel-Anderson, IN",85.61,1-Jul-15,30-Jun-16,,2.9,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Dearborn County Hospital,150086,17140,"Cincinnati, OH-KY-IN",85.72,1-Jul-15,30-Jun-16,,3.2,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+"St Vincent Anderson Regional Hospital, Inc.",150088,26900,"Indianapolis-Carmel-Anderson, IN",85.67,1-Jul-15,30-Jun-16,,3.5,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,**
+Major Hospital,150097,26900,"Indianapolis-Carmel-Anderson, IN",87.94,1-Jul-15,30-Jun-16,,4.1,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Witham Health Services,150104,26900,"Indianapolis-Carmel-Anderson, IN",88.94,1-Jul-15,30-Jun-16,,3.5,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Community Hospital of Anderson and Madison County,150113,26900,"Indianapolis-Carmel-Anderson, IN",88.44,1-Jul-15,30-Jun-16,,3.6,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,**
+Community Hospital South,150128,26900,"Indianapolis-Carmel-Anderson, IN",86.78,1-Jul-15,30-Jun-16,,2.5,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+"St. Vincent Heart Center of Indiana, LLC",150153,26900,"Indianapolis-Carmel-Anderson, IN",88.94,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,**
+"St. Vincent Carmel Hospital, Inc.",150157,26900,"Indianapolis-Carmel-Anderson, IN",87.56,1-Jul-15,30-Jun-16,,2.8,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+IU Health West Hospital,150158,26900,"Indianapolis-Carmel-Anderson, IN",87.78,1-Jul-15,30-Jun-16,,3.4,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+OrthoIndy Hospital,150160,26900,"Indianapolis-Carmel-Anderson, IN",92.06,1-Jul-15,30-Jun-16,,2.3,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+IU Health North Hospital,150161,26900,"Indianapolis-Carmel-Anderson, IN",87.83,1-Jul-15,30-Jun-16,,2.1,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Franciscan St. Francis Health-Indianapolis,150162,26900,"Indianapolis-Carmel-Anderson, IN",87.28,1-Jul-15,30-Jun-16,,3.4,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Community Hospital North,150169,26900,"Indianapolis-Carmel-Anderson, IN",86.89,1-Jul-15,30-Jun-16,,2.5,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Unity Medical and Surgical Hospital,150177,43780,"South Bend-Mishawaka, IN-MI",90.56,1-Jul-15,30-Jun-16,,2.5,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Fairbanks Hospital,150179,26900,"Indianapolis-Carmel-Anderson, IN",N/A,1-Jul-15,30-Jun-16,***,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,**
+"St. Vincent Fishers Hospital, Inc.",150181,26900,"Indianapolis-Carmel-Anderson, IN",89.39,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+Franciscan St. Francis Health-Carmel,150182,26900,"Indianapolis-Carmel-Anderson, IN",94.00,1-Jul-15,30-Jun-16,,2.4,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Saint John Hospital,170009,28140,"Kansas City, MO-KS",88.78,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,**
+"St. Francis Health Center, Inc.",170016,45820,"Topeka, KS",87.50,1-Jul-15,30-Jun-16,,3.0,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Susan B. Allen Memorial Hospital,170017,48620,"Wichita, KS",88.72,1-Jul-15,30-Jun-16,,3.0,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Sumner Regional Medical Center,170039,48620,"Wichita, KS",N/A,1-Jul-15,30-Jun-16,***,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,**
+University of Kansas Hospital,170040,28140,"Kansas City, MO-KS",88.50,1-Jul-15,30-Jun-16,,2.5,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Olathe Medical Center,170049,28140,"Kansas City, MO-KS",87.56,1-Jul-15,30-Jun-16,,2.6,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Stormont-Vail Healthcare,170086,45820,"Topeka, KS",86.67,1-Jul-15,30-Jun-16,,2.7,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Newton Medical Center,170103,48620,"Wichita, KS",88.33,1-Jul-15,30-Jun-16,,2.5,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Shawnee Mission Medical Center,170104,28140,"Kansas City, MO-KS",88.83,1-Jul-15,30-Jun-16,,2.4,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Miami County Medical Center,170109,28140,"Kansas City, MO-KS",91.06,1-Jul-15,30-Jun-16,,2.4,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+"Via Christi Hospitals Wichita, Inc.",170122,48620,"Wichita, KS",85.39,1-Jul-15,30-Jun-16,,3.4,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Wesley Medical Center,170123,48620,"Wichita, KS",85.89,1-Jul-15,30-Jun-16,,2.6,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Saint Luke's Cushing Hospital,170133,28140,"Kansas City, MO-KS",88.33,1-Jul-15,30-Jun-16,,2.8,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Providence Medical Center,170146,28140,"Kansas City, MO-KS",84.72,1-Jul-15,30-Jun-16,,2.9,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Overland Park Regional Medical Center,170176,28140,"Kansas City, MO-KS",86.78,1-Jul-15,30-Jun-16,,3.1,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Menorah Medical Center,170182,28140,"Kansas City, MO-KS",86.22,1-Jul-15,30-Jun-16,,2.8,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Kansas Surgery and Recovery Center,170183,48620,"Wichita, KS",90.83,1-Jul-15,30-Jun-16,,1.6,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,**
+Saint Luke's South Hospital,170185,28140,"Kansas City, MO-KS",88.22,1-Jul-15,30-Jun-16,,2.5,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Kansas Heart Hospital,170186,48620,"Wichita, KS",90.28,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,**
+Kansas City Orthopaedic Institute,170188,28140,"Kansas City, MO-KS",91.33,1-Jul-15,30-Jun-16,,2.9,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+"Doctors Hospital, LLC",170194,28140,"Kansas City, MO-KS",N/A,1-Jul-15,30-Jun-16,***,N/A,1-Apr-13,31-Mar-16,7,N,1-Jul-16,31-Aug-16,**
+"Kansas Spine & Specialty Hospital, LLC",170196,48620,"Wichita, KS",88.94,1-Jul-15,30-Jun-16,,2.4,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+"Kansas Medical Center, LLC",170197,48620,"Wichita, KS",87.11,1-Jul-15,30-Jun-16,,1.8,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Minimally Invasive Surgery Hospital,170199,28140,"Kansas City, MO-KS",N/A,1-Jul-15,30-Jun-16,***,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,**
+"Via Christi Hospital Wichita St. Teresa, Inc.",170200,48620,"Wichita, KS",87.28,1-Jul-15,30-Jun-16,,2.7,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+"Blue Valley Hospital, Inc.",170201,28140,"Kansas City, MO-KS",N/A,1-Jul-15,30-Jun-16,***,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,**
+St. Elizabeth Ft. Thomas,180001,17140,"Cincinnati, OH-KY-IN",86.00,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,**
+St. Elizabeth Medical Center North,180035,17140,"Cincinnati, OH-KY-IN",87.00,1-Jul-15,30-Jun-16,,2.6,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,**
+St. Elizabeth Florence,180045,17140,"Cincinnati, OH-KY-IN",86.67,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,7,N,1-Jul-16,31-Aug-16,
+University Medical Center New Orleans,190005,35380,"New Orleans-Metairie, LA",83.17,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+University Health Conway,190011,33740,"Monroe, LA",83.67,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+Ochsner Medical Center,190036,35380,"New Orleans-Metairie, LA",85.50,1-Jul-15,30-Jun-16,,2.4,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+West Jefferson Medical Center,190039,35380,"New Orleans-Metairie, LA",86.72,1-Jul-15,30-Jun-16,,3.2,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Slidell Memorial Hospital,190040,35380,"New Orleans-Metairie, LA",87.28,1-Jul-15,30-Jun-16,,3.8,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+St. Tammany Parish Hospital,190045,35380,"New Orleans-Metairie, LA",88.11,1-Jul-15,30-Jun-16,,2.5,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Touro Infirmary,190046,35380,"New Orleans-Metairie, LA",86.78,1-Jul-15,30-Jun-16,,2.3,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+St. Charles Parish Hospital,190079,35380,"New Orleans-Metairie, LA",85.56,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+St. Francis Medical Center,190125,33740,"Monroe, LA",85.06,1-Jul-15,30-Jun-16,,2.1,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+East Jefferson General Hospital,190146,35380,"New Orleans-Metairie, LA",85.89,1-Jul-15,30-Jun-16,,2.4,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Glenwood Regional Medical Center,190160,33740,"Monroe, LA",85.28,1-Jul-15,30-Jun-16,,2.3,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Tulane Medical Center,190176,35380,"New Orleans-Metairie, LA",85.67,1-Jul-15,30-Jun-16,,2.9,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Lakeview Regional Medical Center,190177,35380,"New Orleans-Metairie, LA",86.11,1-Jul-15,30-Jun-16,,2.9,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+"Ochsner Medical Center-Northshore, LLC",190204,35380,"New Orleans-Metairie, LA",85.44,1-Jul-15,30-Jun-16,,2.8,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Monroe Surgical Hospital,190245,33740,"Monroe, LA",93.72,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,**
+P&S Surgical Hospital,190246,33740,"Monroe, LA",93.28,1-Jul-15,30-Jun-16,,2.3,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Louisiana Heart Hospital,190250,35380,"New Orleans-Metairie, LA",88.06,1-Jul-15,30-Jun-16,,2.8,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Sterling Surgical Hospital,190256,35380,"New Orleans-Metairie, LA",N/A,1-Jul-15,30-Jun-16,***,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+Fairway Medical Center,190267,35380,"New Orleans-Metairie, LA",N/A,1-Jul-15,30-Jun-16,***,2.5,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Southern Surgical Hospital,190270,35380,"New Orleans-Metairie, LA",91.50,1-Jul-15,30-Jun-16,,3.0,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Ochsner Medical Center-Kenner,190274,35380,"New Orleans-Metairie, LA",85.33,1-Jul-15,30-Jun-16,,2.6,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+"St. Charles Surgical Hospital, LLC",190300,35380,"New Orleans-Metairie, LA",N/A,1-Jul-15,30-Jun-16,***,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,**
+"Omega Hospital, LLC",190302,35380,"New Orleans-Metairie, LA",N/A,1-Jul-15,30-Jun-16,***,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+St. Bernard Parish Hospital,190308,35380,"New Orleans-Metairie, LA",85.72,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+New Orleans East Hospital,190313,35380,"New Orleans-Metairie, LA",N/A,1-Jul-15,30-Jun-16,***,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,
+Covenant Medical Center,230070,40980,"Saginaw, MI",86.44,1-Jul-15,30-Jun-16,,2.8,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+St. Mary's of Michigan Medical Center,230077,40980,"Saginaw, MI",84.61,1-Jul-15,30-Jun-16,,4.3,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,*
+Hurley Medical Center,230132,22420,"Flint, MI",82.50,1-Jul-15,30-Jun-16,,2.7,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Mclaren Flint,230141,22420,"Flint, MI",83.94,1-Jul-15,30-Jun-16,,2.3,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Genesys Regional Medical Center-Health Park,230197,22420,"Flint, MI",84.83,1-Jul-15,30-Jun-16,,4.1,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,*
+HealthSource Saginaw,230275,40980,"Saginaw, MI",N/A,1-Jul-15,30-Jun-16,***,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,**
+Alliance Healthcare System,250012,32820,"Memphis, TN-MS-AR",N/A,1-Jul-15,30-Jun-16,***,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,**
+North Oak Regional Medical Center,250126,32820,"Memphis, TN-MS-AR",84.89,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,**
+Baptist Memorial Hospital Desoto,250141,32820,"Memphis, TN-MS-AR",84.67,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+Methodist Healthcare-Olive Branch Hospital,250167,32820,"Memphis, TN-MS-AR",88.83,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,
+SSM Health St. Joseph Hospital-St Charles,260005,41180,"St. Louis, MO-IL",85.67,1-Jul-15,30-Jun-16,,3.2,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Mercy Hospital St. Louis,260020,41180,"St. Louis, MO-IL",86.78,1-Jul-15,30-Jun-16,,2.1,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Mercy Hospital Jefferson,260023,41180,"St. Louis, MO-IL",84.00,1-Jul-15,30-Jun-16,,4.9,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,*
+Research Medical Center,260027,28140,"Kansas City, MO-KS",84.94,1-Jul-15,30-Jun-16,,2.9,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Bates County Memorial Hospital,260034,28140,"Kansas City, MO-KS",89.72,1-Jul-15,30-Jun-16,,3.5,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Truman Medical Center-Hospital Hill,260048,28140,"Kansas City, MO-KS",81.56,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+Mercy Hospital Washington,260052,41180,"St. Louis, MO-IL",87.39,1-Jul-15,30-Jun-16,,2.0,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Cameron Regional Medical Center,260057,28140,"Kansas City, MO-KS",81.61,1-Jul-15,30-Jun-16,,3.1,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,*
+Saint Luke's Northland Hospital,260062,28140,"Kansas City, MO-KS",86.44,1-Jul-15,30-Jun-16,,3.0,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Boone Hospital Center,260068,17860,"Columbia, MO",87.61,1-Jul-15,30-Jun-16,,2.0,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+St. Anthony's Medical Center,260077,41180,"St. Louis, MO-IL",84.72,1-Jul-15,30-Jun-16,,2.4,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+SSM Health St. Clare Hospital-Fenton,260081,41180,"St. Louis, MO-IL",87.72,1-Jul-15,30-Jun-16,,2.3,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+St. Joseph Medical Center,260085,28140,"Kansas City, MO-KS",84.39,1-Jul-15,30-Jun-16,,4.2,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,**
+SSM Health St. Mary's Hospital-St Louis,260091,41180,"St. Louis, MO-IL",85.78,1-Jul-15,30-Jun-16,,2.3,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Centerpoint Medical Center,260095,28140,"Kansas City, MO-KS",86.72,1-Jul-15,30-Jun-16,,2.6,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+North Kansas City Hospital,260096,28140,"Kansas City, MO-KS",86.61,1-Jul-15,30-Jun-16,,3.7,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Truman Medical Center Lakewood,260102,28140,"Kansas City, MO-KS",83.78,1-Jul-15,30-Jun-16,,2.7,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+SSM Health Depaul Hospital-St Louis,260104,41180,"St. Louis, MO-IL",86.22,1-Jul-15,30-Jun-16,,3.0,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+SSM Health Saint Louis University Hospital,260105,41180,"St. Louis, MO-IL",84.22,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+SoutheastHEALTH,260110,16020,"Cape Girardeau, MO-IL",85.06,1-Jul-15,30-Jun-16,,2.5,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Saint Luke's Hospital of Kansas City,260138,28140,"Kansas City, MO-KS",88.33,1-Jul-15,30-Jun-16,,2.9,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+University of Missouri Health Care,260141,17860,"Columbia, MO",86.72,1-Jul-15,30-Jun-16,,3.7,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Barnes-Jewish West County Hospital,260162,41180,"St. Louis, MO-IL",87.72,1-Jul-15,30-Jun-16,,2.6,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Des Peres Hospital,260176,41180,"St. Louis, MO-IL",86.00,1-Jul-15,30-Jun-16,,3.1,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Liberty Hospital,260177,28140,"Kansas City, MO-KS",87.06,1-Jul-15,30-Jun-16,,3.2,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+St. Luke's Hospital,260179,41180,"St. Louis, MO-IL",89.56,1-Jul-15,30-Jun-16,,2.0,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Christian Hospital Northeast-Northwest,260180,41180,"St. Louis, MO-IL",85.33,1-Jul-15,30-Jun-16,,2.9,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Saint Francis Medical Center,260183,16020,"Cape Girardeau, MO-IL",87.94,1-Jul-15,30-Jun-16,,2.0,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Lee's Summit Medical Center,260190,28140,"Kansas City, MO-KS",88.78,1-Jul-15,30-Jun-16,,3.5,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Barnes-Jewish St Peters Hospital,260191,41180,"St. Louis, MO-IL",87.22,1-Jul-15,30-Jun-16,,3.7,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,**
+St. Mary's Medical Center,260193,28140,"Kansas City, MO-KS",86.00,1-Jul-15,30-Jun-16,,2.8,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,**
+SSM Health St. Joseph Hospital-Lake Saint Louis,260200,41180,"St. Louis, MO-IL",86.61,1-Jul-15,30-Jun-16,,3.0,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+St. Alexius Hospital,260210,41180,"St. Louis, MO-IL",82.50,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+Belton Regional Medical Center,260214,28140,"Kansas City, MO-KS",87.06,1-Jul-15,30-Jun-16,,2.8,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Saint Luke's East Lee's Summit Hospital ,260216,28140,"Kansas City, MO-KS",87.78,1-Jul-15,30-Jun-16,,2.7,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Progress West Hospital,260219,41180,"St. Louis, MO-IL",87.78,1-Jul-15,30-Jun-16,,3.3,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,**
+Bryan Medical Center,280003,30700,"Lincoln, NE",87.94,1-Jul-15,30-Jun-16,,2.6,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Lincoln Surgical Hospital,280127,30700,"Lincoln, NE",90.61,1-Jul-15,30-Jun-16,,2.1,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+CHI Health Nebraska Heart,280128,30700,"Lincoln, NE",89.00,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,**
+Carson Tahoe Regional Medical Center,290019,16180,"Carson City, NV",84.72,1-Jul-15,30-Jun-16,,3.6,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,*
+Hackensack University Medical Center,310001,35620,"New York-Newark-Jersey City, NY-NJ-PA",84.89,1-Jul-15,30-Jun-16,,2.8,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Newark Beth Israel Medical Center,310002,35620,"New York-Newark-Jersey City, NY-NJ-PA",83.94,1-Jul-15,30-Jun-16,,2.7,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Hackensack UMC Palisades,310003,35620,"New York-Newark-Jersey City, NY-NJ-PA",82.11,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+St. Mary's General Hospital,310006,35620,"New York-Newark-Jersey City, NY-NJ-PA",80.00,1-Jul-15,30-Jun-16,,2.8,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Clara Maass Medical Center,310009,35620,"New York-Newark-Jersey City, NY-NJ-PA",82.44,1-Jul-15,30-Jun-16,,2.1,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+University Medical Center of Princeton at Plainsboro,310010,35620,"New York-Newark-Jersey City, NY-NJ-PA",86.17,1-Jul-15,30-Jun-16,,2.2,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Morristown Medical Center,310015,35620,"New York-Newark-Jersey City, NY-NJ-PA",85.78,1-Jul-15,30-Jun-16,,2.3,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+CarePoint Health-Christ Hospital,310016,35620,"New York-Newark-Jersey City, NY-NJ-PA",83.06,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+Chilton Medical Center,310017,35620,"New York-Newark-Jersey City, NY-NJ-PA",84.61,1-Jul-15,30-Jun-16,,2.4,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Robert Wood Johnson University Hospital Rahway,310024,35620,"New York-Newark-Jersey City, NY-NJ-PA",84.11,1-Jul-15,30-Jun-16,,2.7,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+CarePoint Health-Bayonne Medical Center,310025,35620,"New York-Newark-Jersey City, NY-NJ-PA",82.11,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+Trinitas Regional Medical Center,310027,35620,"New York-Newark-Jersey City, NY-NJ-PA",79.89,1-Jul-15,30-Jun-16,,2.6,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Newton Medical Center,310028,35620,"New York-Newark-Jersey City, NY-NJ-PA",85.94,1-Jul-15,30-Jun-16,,2.8,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Riverview Medical Center,310034,35620,"New York-Newark-Jersey City, NY-NJ-PA",86.00,1-Jul-15,30-Jun-16,,2.0,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Robert Wood Johnson University Hospital,310038,35620,"New York-Newark-Jersey City, NY-NJ-PA",85.33,1-Jul-15,30-Jun-16,,4.2,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Raritan Bay Medical Center Perth Amboy Division,310039,35620,"New York-Newark-Jersey City, NY-NJ-PA",82.61,1-Jul-15,30-Jun-16,,2.9,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+CarePoint Health-Hoboken University Medical Center,310040,35620,"New York-Newark-Jersey City, NY-NJ-PA",81.89,1-Jul-15,30-Jun-16,,2.9,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Community Medical Center,310041,35620,"New York-Newark-Jersey City, NY-NJ-PA",81.72,1-Jul-15,30-Jun-16,,2.5,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Englewood Hospital and Medical Center,310045,35620,"New York-Newark-Jersey City, NY-NJ-PA",84.50,1-Jul-15,30-Jun-16,,3.5,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,*
+Robert Wood Johnson University Hospital Somerset,310048,35620,"New York-Newark-Jersey City, NY-NJ-PA",83.11,1-Jul-15,30-Jun-16,,3.7,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,*
+Saint Clare's Hospital,310050,35620,"New York-Newark-Jersey City, NY-NJ-PA",83.78,1-Jul-15,30-Jun-16,,2.8,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Overlook Medical Center,310051,35620,"New York-Newark-Jersey City, NY-NJ-PA",84.89,1-Jul-15,30-Jun-16,,3.5,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,*
+Ocean Medical Center,310052,35620,"New York-Newark-Jersey City, NY-NJ-PA",84.50,1-Jul-15,30-Jun-16,,2.7,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Bergen Regional Medical Center,310058,35620,"New York-Newark-Jersey City, NY-NJ-PA",N/A,1-Jul-15,30-Jun-16,***,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+Saint Peter's University Hospital,310070,35620,"New York-Newark-Jersey City, NY-NJ-PA",86.17,1-Jul-15,30-Jun-16,,3.9,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Jersey Shore University Medical Center,310073,35620,"New York-Newark-Jersey City, NY-NJ-PA",85.44,1-Jul-15,30-Jun-16,,1.7,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Monmouth Medical Center,310075,35620,"New York-Newark-Jersey City, NY-NJ-PA",86.39,1-Jul-15,30-Jun-16,,2.2,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Saint Barnabas Medical Center,310076,35620,"New York-Newark-Jersey City, NY-NJ-PA",87.28,1-Jul-15,30-Jun-16,,3.4,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+East Orange General Hospital,310083,35620,"New York-Newark-Jersey City, NY-NJ-PA",75.28,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+Monmouth Medical Center-Southern Campus,310084,35620,"New York-Newark-Jersey City, NY-NJ-PA",83.33,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+"Saint Michael's Medical Center, Inc.",310096,35620,"New York-Newark-Jersey City, NY-NJ-PA",82.11,1-Jul-15,30-Jun-16,,2.6,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+JFK Medical Center-Anthony M. Yelencsics Community,310108,35620,"New York-Newark-Jersey City, NY-NJ-PA",84.06,1-Jul-15,30-Jun-16,,2.5,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Centrastate Medical Center,310111,35620,"New York-Newark-Jersey City, NY-NJ-PA",85.94,1-Jul-15,30-Jun-16,,2.5,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Bayshore Community Hospital,310112,35620,"New York-Newark-Jersey City, NY-NJ-PA",83.17,1-Jul-15,30-Jun-16,,3.2,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,*
+Southern Ocean Medical Center,310113,35620,"New York-Newark-Jersey City, NY-NJ-PA",84.72,1-Jul-15,30-Jun-16,,2.5,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Meadowlands Hospital Medical Center,310118,35620,"New York-Newark-Jersey City, NY-NJ-PA",83.11,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+University Hospital,310119,35620,"New York-Newark-Jersey City, NY-NJ-PA",79.11,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+HackensackUMC at Pascack Valley,310130,35620,"New York-Newark-Jersey City, NY-NJ-PA",84.61,1-Jul-15,30-Jun-16,,2.9,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+UNM Hospital,320001,10740,"Albuquerque, NM",83.72,1-Jul-15,30-Jun-16,,2.4,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Lovelace Medical Center,320009,10740,"Albuquerque, NM",82.94,1-Jul-15,30-Jun-16,,2.9,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Lovelace Women's Hospital,320017,10740,"Albuquerque, NM",85.28,1-Jul-15,30-Jun-16,,2.7,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Presbyterian Hospital,320021,10740,"Albuquerque, NM",86.22,1-Jul-15,30-Jun-16,,2.4,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Lovelace Westside Hospital,320074,10740,"Albuquerque, NM",88.17,1-Jul-15,30-Jun-16,,2.1,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+UNM Sandoval Regional Medical Center,320089,10740,"Albuquerque, NM",84.39,1-Jul-15,30-Jun-16,,3.3,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,*
+St. Joseph's Medical Center,330006,35620,"New York-Newark-Jersey City, NY-NJ-PA",77.83,1-Jul-15,30-Jun-16,,2.5,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Bronx-Lebanon Hospital Center,330009,35620,"New York-Newark-Jersey City, NY-NJ-PA",78.67,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,Y,1-Jul-16,31-Aug-16,
+Jamaica Hospital Medical Center,330014,35620,"New York-Newark-Jersey City, NY-NJ-PA",80.11,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+"New York Community Hospital of Brooklyn, Inc.",330019,35620,"New York-Newark-Jersey City, NY-NJ-PA",84.50,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+Vassar Brothers Medical Center,330023,35620,"New York-Newark-Jersey City, NY-NJ-PA",83.33,1-Jul-15,30-Jun-16,,3.5,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,*
+Nassau University Medical Center,330027,35620,"New York-Newark-Jersey City, NY-NJ-PA",74.72,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+Richmond University Medical Center,330028,35620,"New York-Newark-Jersey City, NY-NJ-PA",80.94,1-Jul-15,30-Jun-16,,2.6,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Southside Hospital,330043,35620,"New York-Newark-Jersey City, NY-NJ-PA",83.06,1-Jul-15,30-Jun-16,,2.5,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Northern Dutchess Hospital,330049,35620,"New York-Newark-Jersey City, NY-NJ-PA",86.28,1-Jul-15,30-Jun-16,,1.6,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+New York-Presbyterian-Queens,330055,35620,"New York-Newark-Jersey City, NY-NJ-PA",84.06,1-Jul-15,30-Jun-16,,2.6,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Brooklyn Hospital Center at Downtown Campus,330056,35620,"New York-Newark-Jersey City, NY-NJ-PA",80.00,1-Jul-15,30-Jun-16,,2.8,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Lawrence Hospital Center,330061,35620,"New York-Newark-Jersey City, NY-NJ-PA",84.44,1-Jul-15,30-Jun-16,,3.8,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,*
+Niagara Falls Memorial Medical Center,330065,15380,"Buffalo-Cheektowaga-Niagara Falls, NY",80.39,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+Sisters of Charity Hospital,330078,15380,"Buffalo-Cheektowaga-Niagara Falls, NY",83.83,1-Jul-15,30-Jun-16,,2.6,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Lincoln Medical & Mental Health Center,330080,35620,"New York-Newark-Jersey City, NY-NJ-PA",78.72,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+Montefiore Mount Vernon Hospital,330086,35620,"New York-Newark-Jersey City, NY-NJ-PA",81.94,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,7,N,1-Jul-16,31-Aug-16,**
+Eastern Long Island Hospital,330088,35620,"New York-Newark-Jersey City, NY-NJ-PA",86.89,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+New York Eye and Ear Infirmary,330100,35620,"New York-Newark-Jersey City, NY-NJ-PA",N/A,1-Jul-15,30-Jun-16,***,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,**
+New York-Presbyterian Hospital,330101,35620,"New York-Newark-Jersey City, NY-NJ-PA",84.94,1-Jul-15,30-Jun-16,,2.8,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Kenmore Mercy Hospital,330102,15380,"Buffalo-Cheektowaga-Niagara Falls, NY",85.89,1-Jul-15,30-Jun-16,,2.7,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Nyack Hospital,330104,35620,"New York-Newark-Jersey City, NY-NJ-PA",80.11,1-Jul-15,30-Jun-16,,2.8,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+North Shore University Hospital,330106,35620,"New York-Newark-Jersey City, NY-NJ-PA",84.39,1-Jul-15,30-Jun-16,,3.0,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Peconic Bay Medical Center,330107,35620,"New York-Newark-Jersey City, NY-NJ-PA",83.56,1-Jul-15,30-Jun-16,,2.7,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Bertrand Chaffee Hospital,330111,15380,"Buffalo-Cheektowaga-Niagara Falls, NY",86.00,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,**
+Orange Regional Medical Center,330126,35620,"New York-Newark-Jersey City, NY-NJ-PA",85.94,1-Jul-15,30-Jun-16,,2.1,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Jacobi Medical Center,330127,35620,"New York-Newark-Jersey City, NY-NJ-PA",80.11,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+Elmhurst Hospital Center,330128,35620,"New York-Newark-Jersey City, NY-NJ-PA",78.72,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+Bon Secours Community Hospital,330135,35620,"New York-Newark-Jersey City, NY-NJ-PA",86.00,1-Jul-15,30-Jun-16,,2.7,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Brookhaven Memorial Hospital Medical Center,330141,35620,"New York-Newark-Jersey City, NY-NJ-PA",81.39,1-Jul-15,30-Jun-16,,2.9,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Good Samaritan Hospital of Suffern,330158,35620,"New York-Newark-Jersey City, NY-NJ-PA",83.06,1-Jul-15,30-Jun-16,,2.2,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,**
+Staten Island University Hospital,330160,35620,"New York-Newark-Jersey City, NY-NJ-PA",82.11,1-Jul-15,30-Jun-16,,3.6,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,*
+Northern Westchester Hospital,330162,35620,"New York-Newark-Jersey City, NY-NJ-PA",89.17,1-Jul-15,30-Jun-16,,3.1,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Eastern Niagara Hospital,330163,15380,"Buffalo-Cheektowaga-Niagara Falls, NY",80.17,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+Beth Israel Medical Center,330169,35620,"New York-Newark-Jersey City, NY-NJ-PA",83.00,1-Jul-15,30-Jun-16,,2.4,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Glen Cove Hospital,330181,35620,"New York-Newark-Jersey City, NY-NJ-PA",83.39,1-Jul-15,30-Jun-16,,2.5,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+"St. Francis Hospital, Roslyn",330182,35620,"New York-Newark-Jersey City, NY-NJ-PA",88.22,1-Jul-15,30-Jun-16,,2.7,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Montefiore New Rochelle Hospital,330184,35620,"New York-Newark-Jersey City, NY-NJ-PA",81.61,1-Jul-15,30-Jun-16,,2.7,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+John T. Mather Memorial Hospital of Port Jefferson,330185,35620,"New York-Newark-Jersey City, NY-NJ-PA",88.00,1-Jul-15,30-Jun-16,,2.4,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Mount St. Mary's Hospital and Health Center,330188,15380,"Buffalo-Cheektowaga-Niagara Falls, NY",84.50,1-Jul-15,30-Jun-16,,2.7,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Flushing Hospital Medical Center,330193,35620,"New York-Newark-Jersey City, NY-NJ-PA",79.67,1-Jul-15,30-Jun-16,,3.0,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Maimonides Medical Center,330194,35620,"New York-Newark-Jersey City, NY-NJ-PA",77.50,1-Jul-15,30-Jun-16,,2.3,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Long Island Jewish Medical Center,330195,35620,"New York-Newark-Jersey City, NY-NJ-PA",84.72,1-Jul-15,30-Jun-16,,3.0,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Coney Island Hospital,330196,35620,"New York-Newark-Jersey City, NY-NJ-PA",81.22,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+Metropolitan Hospital Center,330199,35620,"New York-Newark-Jersey City, NY-NJ-PA",81.17,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+Kingsbrook Jewish Medical Center,330201,35620,"New York-Newark-Jersey City, NY-NJ-PA",80.56,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+Kings County Hospital Center,330202,35620,"New York-Newark-Jersey City, NY-NJ-PA",77.83,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+Bellevue Hospital Center,330204,35620,"New York-Newark-Jersey City, NY-NJ-PA",82.22,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+St. John's Riverside Hospital,330208,35620,"New York-Newark-Jersey City, NY-NJ-PA",86.17,1-Jul-15,30-Jun-16,,3.2,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Erie County Medical Center,330219,15380,"Buffalo-Cheektowaga-Niagara Falls, NY",85.67,1-Jul-15,30-Jun-16,,3.1,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Wyckoff Heights Medical Center,330221,35620,"New York-Newark-Jersey City, NY-NJ-PA",79.83,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+Queens Hospital Center,330231,35620,"New York-Newark-Jersey City, NY-NJ-PA",83.17,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,**
+Brookdale Hospital Medical Center,330233,35620,"New York-Newark-Jersey City, NY-NJ-PA",77.67,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+Westchester Medical Center,330234,35620,"New York-Newark-Jersey City, NY-NJ-PA",78.72,1-Jul-15,30-Jun-16,,3.1,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,*
+New York Methodist Hospital,330236,35620,"New York-Newark-Jersey City, NY-NJ-PA",82.61,1-Jul-15,30-Jun-16,,3.0,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Harlem Hospital Center,330240,35620,"New York-Newark-Jersey City, NY-NJ-PA",76.33,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,**
+St. Charles Hospital,330246,35620,"New York-Newark-Jersey City, NY-NJ-PA",85.44,1-Jul-15,30-Jun-16,,2.7,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Mercy Medical Center,330259,35620,"New York-Newark-Jersey City, NY-NJ-PA",82.17,1-Jul-15,30-Jun-16,,2.9,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Phelps Memorial Hospital Association,330261,35620,"New York-Newark-Jersey City, NY-NJ-PA",86.67,1-Jul-15,30-Jun-16,,2.0,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+St. Luke's Cornwall Hospital,330264,35620,"New York-Newark-Jersey City, NY-NJ-PA",82.83,1-Jul-15,30-Jun-16,,3.4,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,*
+New York-Presbyterian/Hudson Valley Hospital,330267,35620,"New York-Newark-Jersey City, NY-NJ-PA",86.61,1-Jul-15,30-Jun-16,,2.6,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Hospital for Special Surgery,330270,35620,"New York-Newark-Jersey City, NY-NJ-PA",89.28,1-Jul-15,30-Jun-16,,1.9,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Putnam Hospital Center,330273,35620,"New York-Newark-Jersey City, NY-NJ-PA",87.22,1-Jul-15,30-Jun-16,,1.9,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Mercy Hospital of Buffalo,330279,15380,"Buffalo-Cheektowaga-Niagara Falls, NY",81.67,1-Jul-15,30-Jun-16,,2.5,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Good Samaritan Hospital Medical Center,330286,35620,"New York-Newark-Jersey City, NY-NJ-PA",83.39,1-Jul-15,30-Jun-16,,3.4,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,*
+White Plains Hospital Center,330304,35620,"New York-Newark-Jersey City, NY-NJ-PA",87.61,1-Jul-15,30-Jun-16,,3.1,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Plainview Hospital,330331,35620,"New York-Newark-Jersey City, NY-NJ-PA",83.11,1-Jul-15,30-Jun-16,,2.6,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+St. Joseph Hospital,330332,35620,"New York-Newark-Jersey City, NY-NJ-PA",82.83,1-Jul-15,30-Jun-16,,2.6,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Southampton Hospital,330340,35620,"New York-Newark-Jersey City, NY-NJ-PA",82.94,1-Jul-15,30-Jun-16,,3.4,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,*
+University Hospital of Brooklyn (Downstate),330350,35620,"New York-Newark-Jersey City, NY-NJ-PA",79.33,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+North Central Bronx Hospital,330385,35620,"New York-Newark-Jersey City, NY-NJ-PA",81.28,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,**
+University Hospital (Stony Brook),330393,35620,"New York-Newark-Jersey City, NY-NJ-PA",84.83,1-Jul-15,30-Jun-16,,2.3,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+St. John's Episcopal Hospital at South Shore,330395,35620,"New York-Newark-Jersey City, NY-NJ-PA",77.22,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+Woodhull Medical and Mental Health Center,330396,35620,"New York-Newark-Jersey City, NY-NJ-PA",81.28,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+Interfaith Medical Center,330397,35620,"New York-Newark-Jersey City, NY-NJ-PA",75.39,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+St. Barnabas Hospital,330399,35620,"New York-Newark-Jersey City, NY-NJ-PA",79.00,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+St. Catherine of Siena Hospital,330401,35620,"New York-Newark-Jersey City, NY-NJ-PA",84.28,1-Jul-15,30-Jun-16,,2.4,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Helen Hayes Hospital,330405,35620,"New York-Newark-Jersey City, NY-NJ-PA",N/A,1-Jul-15,30-Jun-16,***,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,**
+Carolinas Medical Center-Northeast,340001,16740,"Charlotte-Concord-Gastonia, NC-SC",86.44,1-Jul-15,30-Jun-16,,2.7,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Memorial Mission Hospital and Asheville Surgery Center,340002,11700,"Asheville, NC",89.06,1-Jul-15,30-Jun-16,,1.8,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Margaret R. Pardee Memorial Hospital,340017,11700,"Asheville, NC",86.67,1-Jul-15,30-Jun-16,,2.2,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Park Ridge Health,340023,11700,"Asheville, NC",88.78,1-Jul-15,30-Jun-16,,2.7,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Duke University Hospital,340030,20500,"Durham-Chapel Hill, NC",87.61,1-Jul-15,30-Jun-16,,3.0,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+CaroMont Regional Medical Center,340032,16740,"Charlotte-Concord-Gastonia, NC-SC",85.17,1-Jul-15,30-Jun-16,,3.2,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+"Iredell Memorial Hospital, Inc.",340039,16740,"Charlotte-Concord-Gastonia, NC-SC",86.33,1-Jul-15,30-Jun-16,,3.6,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Vidant Medical Center,340040,24780,"Greenville, NC",87.06,1-Jul-15,30-Jun-16,,3.0,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+North Carolina Specialty Hospital,340049,20500,"Durham-Chapel Hill, NC",91.17,1-Jul-15,30-Jun-16,,2.0,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+University of North Carolina Hospital,340061,20500,"Durham-Chapel Hill, NC",88.33,1-Jul-15,30-Jun-16,,3.0,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Carolinas HealthCare System Pineville,340098,16740,"Charlotte-Concord-Gastonia, NC-SC",87.17,1-Jul-15,30-Jun-16,,3.6,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,**
+Carolinas Medical Center/Behavioral Health,340113,16740,"Charlotte-Concord-Gastonia, NC-SC",86.50,1-Jul-15,30-Jun-16,,2.1,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Lake Norman Regional Medical Center,340129,16740,"Charlotte-Concord-Gastonia, NC-SC",84.06,1-Jul-15,30-Jun-16,,3.2,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,*
+Carolinas HealthCare System Union,340130,16740,"Charlotte-Concord-Gastonia, NC-SC",82.28,1-Jul-15,30-Jun-16,,5.1,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,*
+Davis Regional Medical Center,340144,16740,"Charlotte-Concord-Gastonia, NC-SC",84.33,1-Jul-15,30-Jun-16,,2.9,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Carolinas HealthCare System Lincoln,340145,16740,"Charlotte-Concord-Gastonia, NC-SC",88.61,1-Jul-15,30-Jun-16,,3.7,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Duke Regional Hospital,340155,20500,"Durham-Chapel Hill, NC",86.22,1-Jul-15,30-Jun-16,,2.8,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Person Memorial Hospital,340159,20500,"Durham-Chapel Hill, NC",85.28,1-Jul-15,30-Jun-16,,3.7,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,**
+Carolinas Medical Center-University,340166,16740,"Charlotte-Concord-Gastonia, NC-SC",84.94,1-Jul-15,30-Jun-16,,3.3,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,**
+Haywood Regional Medical Center,340184,11700,"Asheville, NC",85.28,1-Jul-15,30-Jun-16,,2.0,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Carolinas Continue Care Hospital at University,340189,16740,"Charlotte-Concord-Gastonia, NC-SC",N/A,1-Jul-15,30-Jun-16,***,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,**
+St. Alexius Medical Center,350002,13900,"Bismarck, ND",85.67,1-Jul-15,30-Jun-16,,2.4,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Sanford Medical Center Bismarck,350015,13900,"Bismarck, ND",85.61,1-Jul-15,30-Jun-16,,3.0,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Standing Rock Indian Health Service Hospital,350064,13900,"Bismarck, ND",N/A,1-Jul-15,30-Jun-16,***,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,**
+"University of Cincinnati Medical Center, LLC",360003,17140,"Cincinnati, OH-KY-IN",82.89,1-Jul-15,30-Jun-16,,3.2,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,*
+"The Jewish Hospital, LLC",360016,17140,"Cincinnati, OH-KY-IN",85.94,1-Jul-15,30-Jun-16,,2.3,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Summa Health System,360020,10420,"Akron, OH",85.72,1-Jul-15,30-Jun-16,,2.7,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Wood County Hospital,360029,45780,"Toledo, OH",88.50,1-Jul-15,30-Jun-16,,3.0,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Mccullough-Hyde Memorial Hospital,360046,17140,"Cincinnati, OH-KY-IN",88.83,1-Jul-15,30-Jun-16,,2.8,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+University of Toledo Medical Center,360048,45780,"Toledo, OH",82.06,1-Jul-15,30-Jun-16,,3.7,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,*
+Mercy Hospital Fairfield,360056,17140,"Cincinnati, OH-KY-IN",90.39,1-Jul-15,30-Jun-16,,2.6,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Toledo Hospital,360068,45780,"Toledo, OH",85.94,1-Jul-15,30-Jun-16,,1.9,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Flower Hospital,360074,45780,"Toledo, OH",87.39,1-Jul-15,30-Jun-16,,2.4,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Atrium Medical Center,360076,17140,"Cincinnati, OH-KY-IN",86.22,1-Jul-15,30-Jun-16,,2.7,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Robinson Memorial Hospital,360078,10420,"Akron, OH",83.89,1-Jul-15,30-Jun-16,,2.7,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Mercy St. Charles Hospital,360081,45780,"Toledo, OH",87.22,1-Jul-15,30-Jun-16,,2.3,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+St. Luke's Hospital,360090,45780,"Toledo, OH",86.00,1-Jul-15,30-Jun-16,,3.0,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Mercy St. Vincent Medical Center,360112,45780,"Toledo, OH",85.28,1-Jul-15,30-Jun-16,,2.8,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Fort Hamilton Hughes Memorial Hospital,360132,17140,"Cincinnati, OH-KY-IN",87.89,1-Jul-15,30-Jun-16,,2.8,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Good Samaritan Hospital,360134,17140,"Cincinnati, OH-KY-IN",86.06,1-Jul-15,30-Jun-16,,2.4,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Summa Western Reserve Hospital,360150,10420,"Akron, OH",88.72,1-Jul-15,30-Jun-16,,3.0,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+The Christ Hospital,360163,17140,"Cincinnati, OH-KY-IN",88.83,1-Jul-15,30-Jun-16,,2.1,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Bethesda North,360179,17140,"Cincinnati, OH-KY-IN",86.11,1-Jul-15,30-Jun-16,,2.4,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Mercy Health West Hospital,360234,17140,"Cincinnati, OH-KY-IN",87.17,1-Jul-15,30-Jun-16,,1.9,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Mercy Hospital Clermont,360236,17140,"Cincinnati, OH-KY-IN",87.33,1-Jul-15,30-Jun-16,,3.9,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Edwin Shaw Rehab Institute,360241,10420,"Akron, OH",N/A,1-Jul-15,30-Jun-16,***,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,**
+Bay Park Community Hospital,360259,45780,"Toledo, OH",88.44,1-Jul-15,30-Jun-16,,2.9,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Mercy St. Anne Hospital,360262,45780,"Toledo, OH",87.83,1-Jul-15,30-Jun-16,,2.9,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Crystal Clinic Orthopaedic Center,360351,10420,"Akron, OH",89.44,1-Jul-15,30-Jun-16,,2.7,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+"West Chester Hospital, LLC",360354,17140,"Cincinnati, OH-KY-IN",87.94,1-Jul-15,30-Jun-16,,3.0,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+TriHealth Evendale Hospital,360362,17140,"Cincinnati, OH-KY-IN",92.06,1-Jul-15,30-Jun-16,,2.2,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Norman Regional Hospital Authority,370008,36420,"Oklahoma City, OK",86.56,1-Jul-15,30-Jun-16,,2.7,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+"Mercy Hospital El Reno, Inc.",370011,36420,"Oklahoma City, OK",N/A,1-Jul-15,30-Jun-16,***,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,**
+"Mercy Hospital Oklahoma City, Inc.",370013,36420,"Oklahoma City, OK",85.67,1-Jul-15,30-Jun-16,,2.7,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Integris Baptist Medical Center,370028,36420,"Oklahoma City, OK",86.94,1-Jul-15,30-Jun-16,,3.2,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Alliance Health Deaconess,370032,36420,"Oklahoma City, OK",82.50,1-Jul-15,30-Jun-16,,2.5,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+St. Anthony Hospital,370037,36420,"Oklahoma City, OK",87.61,1-Jul-15,30-Jun-16,,2.8,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Grady Memorial Hospital,370054,36420,"Oklahoma City, OK",86.89,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,**
+OU Medical Center,370093,36420,"Oklahoma City, OK",82.83,1-Jul-15,30-Jun-16,,2.9,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Alliance Health Midwest,370094,36420,"Oklahoma City, OK",79.56,1-Jul-15,30-Jun-16,,3.9,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,*
+Integris Southwest Medical Center,370106,36420,"Oklahoma City, OK",82.39,1-Jul-15,30-Jun-16,,2.4,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Purcell Municipal Hospital,370158,36420,"Oklahoma City, OK",88.39,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,**
+Northwest Surgical Hospital,370192,36420,"Oklahoma City, OK",N/A,1-Jul-15,30-Jun-16,***,2.5,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+"Lakeside Women's Hospital, A Member of INTEGRIS Health",370199,36420,"Oklahoma City, OK",89.06,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,**
+Surgical Hospital of Oklahoma,370201,36420,"Oklahoma City, OK",N/A,1-Jul-15,30-Jun-16,***,3.6,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+"Community Hospital, LLC",370203,36420,"Oklahoma City, OK",88.83,1-Jul-15,30-Jun-16,,2.9,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Oklahoma Spine Hospital,370206,36420,"Oklahoma City, OK",90.72,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,**
+Integris Canadian Valley  Hospital,370211,36420,"Oklahoma City, OK",85.56,1-Jul-15,30-Jun-16,,3.3,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Oklahoma Center for Orthopaedic & Multi-Specialty Surgery,370212,36420,"Oklahoma City, OK",92.39,1-Jul-15,30-Jun-16,,2.2,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Oklahoma Heart Hospital,370215,36420,"Oklahoma City, OK",93.22,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,**
+OneCore Health,370220,36420,"Oklahoma City, OK",N/A,1-Jul-15,30-Jun-16,***,2.7,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+McBride Orthopedic Hospital,370222,36420,"Oklahoma City, OK",90.11,1-Jul-15,30-Jun-16,,2.6,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,**
+Summit Medical Center,370225,36420,"Oklahoma City, OK",N/A,1-Jul-15,30-Jun-16,***,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+Oklahoma Heart Hospital South,370234,36420,"Oklahoma City, OK",91.83,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,**
+Integris Health Edmond,370236,36420,"Oklahoma City, OK",87.72,1-Jul-15,30-Jun-16,,3.5,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Providence St. Vincent Medical Center,380004,38900,"Portland-Vancouver-Hillsboro, OR-WA",87.67,1-Jul-15,30-Jun-16,,2.8,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Legacy Emanuel Medical Center,380007,38900,"Portland-Vancouver-Hillsboro, OR-WA",85.56,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+OHSU Hospital and Clinics,380009,38900,"Portland-Vancouver-Hillsboro, OR-WA",88.17,1-Jul-15,30-Jun-16,,2.3,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Legacy Good Samaritan Medical Center,380017,38900,"Portland-Vancouver-Hillsboro, OR-WA",87.78,1-Jul-15,30-Jun-16,,3.0,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Tuality Community Hospital,380021,38900,"Portland-Vancouver-Hillsboro, OR-WA",86.28,1-Jul-15,30-Jun-16,,2.3,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Legacy Mount Hood Medical Center,380025,38900,"Portland-Vancouver-Hillsboro, OR-WA",86.94,1-Jul-15,30-Jun-16,,2.6,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Providence Newberg Medical Center,380037,38900,"Portland-Vancouver-Hillsboro, OR-WA",88.44,1-Jul-15,30-Jun-16,,2.9,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Providence Willamette Falls Medical Center,380038,38900,"Portland-Vancouver-Hillsboro, OR-WA",87.83,1-Jul-15,30-Jun-16,,3.5,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Adventist Medical Center,380060,38900,"Portland-Vancouver-Hillsboro, OR-WA",88.33,1-Jul-15,30-Jun-16,,2.5,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Providence Portland Medical Center,380061,38900,"Portland-Vancouver-Hillsboro, OR-WA",87.61,1-Jul-15,30-Jun-16,,2.7,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Willamette Valley Medical Center,380071,38900,"Portland-Vancouver-Hillsboro, OR-WA",88.67,1-Jul-15,30-Jun-16,,3.4,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Providence Milwaukie Hospital,380082,38900,"Portland-Vancouver-Hillsboro, OR-WA",87.00,1-Jul-15,30-Jun-16,,4.3,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Legacy Meridian Park Medical Center,380089,38900,"Portland-Vancouver-Hillsboro, OR-WA",87.72,1-Jul-15,30-Jun-16,,2.9,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Kaiser Sunnyside Medical Center,380091,38900,"Portland-Vancouver-Hillsboro, OR-WA",86.83,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+Kaiser Foundation Hospital-Westside,380103,38900,"Portland-Vancouver-Hillsboro, OR-WA",89.94,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+UPMC McKeesport,390002,38300,"Pittsburgh, PA",83.50,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+Holy Spirit Hospital,390004,25420,"Harrisburg-Carlisle, PA",86.28,1-Jul-15,30-Jun-16,,3.5,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+UPMC Mercy,390028,38300,"Pittsburgh, PA",84.67,1-Jul-15,30-Jun-16,,2.8,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Allegheny Valley Hospital,390032,38300,"Pittsburgh, PA",82.56,1-Jul-15,30-Jun-16,,2.7,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Heritage Valley Beaver,390036,38300,"Pittsburgh, PA",86.11,1-Jul-15,30-Jun-16,,3.3,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Heritage Valley Sewickley,390037,38300,"Pittsburgh, PA",87.94,1-Jul-15,30-Jun-16,,2.4,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Uniontown Hospital,390041,38300,"Pittsburgh, PA",85.89,1-Jul-15,30-Jun-16,,2.3,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+The Washington Hospital,390042,38300,"Pittsburgh, PA",87.00,1-Jul-15,30-Jun-16,,2.5,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Reading Hospital,390044,39740,"Reading, PA",85.39,1-Jul-15,30-Jun-16,,2.2,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Allegheny General Hospital,390050,38300,"Pittsburgh, PA",81.44,1-Jul-15,30-Jun-16,,2.2,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Carlisle Regional Medical Center,390058,25420,"Harrisburg-Carlisle, PA",87.39,1-Jul-15,30-Jun-16,,2.5,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Pinnacle Health Hospitals,390067,25420,"Harrisburg-Carlisle, PA",87.67,1-Jul-15,30-Jun-16,,3.1,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Western Pennsylvania Hospital,390090,38300,"Pittsburgh, PA",85.78,1-Jul-15,30-Jun-16,,2.9,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+St. Joseph Medical Center,390096,39740,"Reading, PA",84.67,1-Jul-15,30-Jun-16,,2.4,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+UPMC St. Margaret,390102,38300,"Pittsburgh, PA",85.61,1-Jul-15,30-Jun-16,,3.2,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+UPMC Passavant,390107,38300,"Pittsburgh, PA",85.44,1-Jul-15,30-Jun-16,,3.0,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Magee Womens Hospital of UPMC Health System,390114,38300,"Pittsburgh, PA",85.22,1-Jul-15,30-Jun-16,,2.8,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Excela Health Westmoreland Hospital,390145,38300,"Pittsburgh, PA",87.89,1-Jul-15,30-Jun-16,,2.3,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Monongahela Valley Hospital,390147,38300,"Pittsburgh, PA",89.00,1-Jul-15,30-Jun-16,,3.5,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Ohio Valley General Hospital,390157,38300,"Pittsburgh, PA",82.06,1-Jul-15,30-Jun-16,,2.8,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Canonsburg General Hospital,390160,38300,"Pittsburgh, PA",85.39,1-Jul-15,30-Jun-16,,2.5,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+ACMH Hospital,390163,38300,"Pittsburgh, PA",85.00,1-Jul-15,30-Jun-16,,2.3,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+UPMC Presbyterian Shadyside,390164,38300,"Pittsburgh, PA",85.67,1-Jul-15,30-Jun-16,,3.0,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Butler Memorial Hospital,390168,38300,"Pittsburgh, PA",85.89,1-Jul-15,30-Jun-16,,2.2,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Highlands Hospital,390184,38300,"Pittsburgh, PA",84.61,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,**
+Excela Health Frick Hospital,390217,38300,"Pittsburgh, PA",87.17,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,**
+Excela Health Latrobe Hospital,390219,38300,"Pittsburgh, PA",88.33,1-Jul-15,30-Jun-16,,2.5,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+St. Clair Hospital,390228,38300,"Pittsburgh, PA",89.06,1-Jul-15,30-Jun-16,,2.9,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Milton S. Hershey Medical Center,390256,25420,"Harrisburg-Carlisle, PA",87.00,1-Jul-15,30-Jun-16,,2.9,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Jefferson Regional Medical Center,390265,38300,"Pittsburgh, PA",86.61,1-Jul-15,30-Jun-16,,2.8,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Forbes Hospital,390267,38300,"Pittsburgh, PA",84.72,1-Jul-15,30-Jun-16,,3.2,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,*
+Surgical Institute of Reading,390316,39740,"Reading, PA",93.94,1-Jul-15,30-Jun-16,,2.7,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Advanced Surgical Hospital,390323,38300,"Pittsburgh, PA",95.28,1-Jul-15,30-Jun-16,,2.4,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+UPMC East,390328,38300,"Pittsburgh, PA",86.06,1-Jul-15,30-Jun-16,,3.0,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Piedmont Medical Center,420002,16740,"Charlotte-Concord-Gastonia, NC-SC",85.39,1-Jul-15,30-Jun-16,,3.2,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Carolina Pines Regional Medical Center,420010,22500,"Florence, SC",84.39,1-Jul-15,30-Jun-16,,2.9,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Chester Regional Medical Center,420019,16740,"Charlotte-Concord-Gastonia, NC-SC",84.11,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+Springs Memorial Hospital,420036,16740,"Charlotte-Concord-Gastonia, NC-SC",85.39,1-Jul-15,30-Jun-16,,2.8,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+McLeod Regional Medical Center-Pee Dee,420051,22500,"Florence, SC",87.83,1-Jul-15,30-Jun-16,,3.4,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+McLeod Medical Center-Darlington,420057,22500,"Florence, SC",N/A,1-Jul-15,30-Jun-16,***,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,**
+Lake City Community Hospital,420066,22500,"Florence, SC",N/A,1-Jul-15,30-Jun-16,***,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,**
+Carolinas Hospital System,420091,22500,"Florence, SC",87.72,1-Jul-15,30-Jun-16,,2.4,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Sumner Regional Medical Center,440003,34980,"Nashville-Davidson--Murfreesboro--Franklin, TN",85.61,1-Jul-15,30-Jun-16,,2.2,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Tristar Skyline Medical Center,440006,34980,"Nashville-Davidson--Murfreesboro--Franklin, TN",83.83,1-Jul-15,30-Jun-16,,2.4,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Williamson Medical Center,440029,34980,"Nashville-Davidson--Murfreesboro--Franklin, TN",88.50,1-Jul-15,30-Jun-16,,2.3,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Tristar Horizon Medical Center,440046,34980,"Nashville-Davidson--Murfreesboro--Franklin, TN",86.89,1-Jul-15,30-Jun-16,,3.0,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Baptist Memorial Hospital,440048,32820,"Memphis, TN-MS-AR",84.39,1-Jul-15,30-Jun-16,,2.7,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Methodist Healthcare Memphis Hospitals,440049,32820,"Memphis, TN-MS-AR",86.44,1-Jul-15,30-Jun-16,,2.4,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Saint Thomas Rutherford Hospital,440053,34980,"Nashville-Davidson--Murfreesboro--Franklin, TN",86.56,1-Jul-15,30-Jun-16,,2.0,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,**
+Northcrest Medical Center,440065,34980,"Nashville-Davidson--Murfreesboro--Franklin, TN",87.17,1-Jul-15,30-Jun-16,,2.5,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Maury Regional Hospital,440073,34980,"Nashville-Davidson--Murfreesboro--Franklin, TN",87.44,1-Jul-15,30-Jun-16,,1.7,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Saint Thomas West Hospital,440082,34980,"Nashville-Davidson--Murfreesboro--Franklin, TN",87.11,1-Jul-15,30-Jun-16,,2.4,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Metro Nashville General Hospital,440111,34980,"Nashville-Davidson--Murfreesboro--Franklin, TN",81.89,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+Baptist Memorial Hospital Tipton,440131,32820,"Memphis, TN-MS-AR",86.72,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,7,N,1-Jul-16,31-Aug-16,**
+Saint Thomas Midtown Hospital,440133,34980,"Nashville-Davidson--Murfreesboro--Franklin, TN",86.06,1-Jul-15,30-Jun-16,,2.4,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Tristar Summit Medical Center,440150,34980,"Nashville-Davidson--Murfreesboro--Franklin, TN",84.83,1-Jul-15,30-Jun-16,,3.0,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,*
+Regional One Health,440152,32820,"Memphis, TN-MS-AR",83.67,1-Jul-15,30-Jun-16,,3.2,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,**
+Delta Medical Center,440159,32820,"Memphis, TN-MS-AR",81.67,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+Tristar Centennial Medical Center,440161,34980,"Nashville-Davidson--Murfreesboro--Franklin, TN",87.44,1-Jul-15,30-Jun-16,,2.5,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+St. Francis Hospital,440183,32820,"Memphis, TN-MS-AR",83.56,1-Jul-15,30-Jun-16,,1.9,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+University Medical Center,440193,34980,"Nashville-Davidson--Murfreesboro--Franklin, TN",82.56,1-Jul-15,30-Jun-16,,3.8,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,*
+Tristar Hendersonville Medical Center,440194,34980,"Nashville-Davidson--Murfreesboro--Franklin, TN",86.22,1-Jul-15,30-Jun-16,,3.0,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Tristar Southern Hills Medical Center,440197,34980,"Nashville-Davidson--Murfreesboro--Franklin, TN",86.56,1-Jul-15,30-Jun-16,,2.7,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Saint Thomas Stones River Hospital,440200,34980,"Nashville-Davidson--Murfreesboro--Franklin, TN",N/A,1-Jul-15,30-Jun-16,***,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,**
+Saint Thomas Hospital for Specialty Surgery,440218,34980,"Nashville-Davidson--Murfreesboro--Franklin, TN",90.50,1-Jul-15,30-Jun-16,,2.6,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+TriStar StoneCrest Medical Center,440227,34980,"Nashville-Davidson--Murfreesboro--Franklin, TN",84.33,1-Jul-15,30-Jun-16,,3.5,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,**
+Saint Francis Bartlett Medical Center,440228,32820,"Memphis, TN-MS-AR",86.44,1-Jul-15,30-Jun-16,,2.8,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+TrustPoint Hospital,440231,34980,"Nashville-Davidson--Murfreesboro--Franklin, TN",N/A,1-Jul-15,30-Jun-16,***,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,**
+Christus Southeast Texas-St Elizabeth,450034,13140,"Beaumont-Port Arthur, TX",85.50,1-Jul-15,30-Jun-16,,3.0,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Covenant Medical Center,450040,31180,"Lubbock, TX",87.22,1-Jul-15,30-Jun-16,,3.0,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Christus Spohn Hospital Corpus Christi,450046,18580,"Corpus Christi, TX",83.83,1-Jul-15,30-Jun-16,,2.4,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Scott & White Medical Center-Temple,450054,28660,"Killeen-Temple, TX",86.89,1-Jul-15,30-Jun-16,,2.3,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+East Texas Medical Center,450083,46340,"Tyler, TX",83.67,1-Jul-15,30-Jun-16,,2.7,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Mother Frances Hospital,450102,46340,"Tyler, TX",87.78,1-Jul-15,30-Jun-16,,2.6,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+University Medical Center Brackenridge,450124,12420,"Austin-Round Rock, TX",84.61,1-Jul-15,30-Jun-16,,3.3,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,**
+Seton Smithville Regional Hospital,450143,12420,"Austin-Round Rock, TX",N/A,1-Jul-15,30-Jun-16,***,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,**
+Metroplex Hospital,450152,28660,"Killeen-Temple, TX",88.39,1-Jul-15,30-Jun-16,,3.9,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Grace Medical Center,450162,31180,"Lubbock, TX",88.83,1-Jul-15,30-Jun-16,,1.6,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Central Texas Medical Center,450272,12420,"Austin-Round Rock, TX",86.00,1-Jul-15,30-Jun-16,,3.6,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Baptist Beaumont Hospital,450346,13140,"Beaumont-Port Arthur, TX",84.67,1-Jul-15,30-Jun-16,,2.3,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+St. David's Medical Center,450431,12420,"Austin-Round Rock, TX",88.39,1-Jul-15,30-Jun-16,,2.6,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+The Medical Center of Southeast Texas,450518,13140,"Beaumont-Port Arthur, TX",83.00,1-Jul-15,30-Jun-16,,2.5,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Care Regional Medical Center,450605,18580,"Corpus Christi, TX",N/A,1-Jul-15,30-Jun-16,***,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,**
+University Medical Center,450686,31180,"Lubbock, TX",87.89,1-Jul-15,30-Jun-16,,2.9,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+University of Texas Health Science Center at Tyler,450690,46340,"Tyler, TX",88.61,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,**
+St. David's South Austin Medical Center,450713,12420,"Austin-Round Rock, TX",88.00,1-Jul-15,30-Jun-16,,3.4,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Round Rock Medical Center,450718,12420,"Austin-Round Rock, TX",86.44,1-Jul-15,30-Jun-16,,2.6,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+The Corpus Christi Medical Center,450788,18580,"Corpus Christi, TX",86.17,1-Jul-15,30-Jun-16,,3.0,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Northwest Hills Surgical Hospital,450808,12420,"Austin-Round Rock, TX",90.33,1-Jul-15,30-Jun-16,,2.6,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+North Austin Medical Center,450809,12420,"Austin-Round Rock, TX",87.72,1-Jul-15,30-Jun-16,,2.7,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Texas Spine and Joint Hospital,450864,46340,"Tyler, TX",91.78,1-Jul-15,30-Jun-16,,2.4,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Seton Southwest Hospital,450865,12420,"Austin-Round Rock, TX",87.94,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,**
+Seton Northwest Hospital,450867,12420,"Austin-Round Rock, TX",86.94,1-Jul-15,30-Jun-16,,2.4,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Arise Austin Medical Center,450871,12420,"Austin-Round Rock, TX",87.22,1-Jul-15,30-Jun-16,,2.9,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Lubbock Heart Hospital Lp,450876,31180,"Lubbock, TX",88.39,1-Jul-15,30-Jun-16,,2.2,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Utah Valley Regional Medical Center,460001,39340,"Provo-Orem, UT",86.67,1-Jul-15,30-Jun-16,,3.8,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Mckay Dee Hospital,460004,36260,"Ogden-Clearfield, UT",87.17,1-Jul-15,30-Jun-16,,3.0,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Ogden Regional Medical Center,460005,36260,"Ogden-Clearfield, UT",84.06,1-Jul-15,30-Jun-16,,3.3,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,*
+Mountain View Hospital,460013,39340,"Provo-Orem, UT",86.06,1-Jul-15,30-Jun-16,,3.1,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Brigham City Community Hospital,460017,36260,"Ogden-Clearfield, UT",87.00,1-Jul-15,30-Jun-16,,3.0,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+American Fork Hospital,460023,39340,"Provo-Orem, UT",87.39,1-Jul-15,30-Jun-16,,3.3,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Bear River Valley Hospital,460039,36260,"Ogden-Clearfield, UT",90.17,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+Davis Hospital and Medical Center,460041,36260,"Ogden-Clearfield, UT",84.44,1-Jul-15,30-Jun-16,,3.5,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,*
+Lakeview Hospital,460042,36260,"Ogden-Clearfield, UT",87.72,1-Jul-15,30-Jun-16,,2.5,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Orem Community Hospital,460043,39340,"Provo-Orem, UT",88.72,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,**
+Timpanogos Regional Hospital,460052,39340,"Provo-Orem, UT",87.78,1-Jul-15,30-Jun-16,,3.0,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Augusta Health,490018,44420,"Staunton-Waynesboro, VA",87.06,1-Jul-15,30-Jun-16,,2.8,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Northwest Hospital,500001,42660,"Seattle-Tacoma-Bellevue, WA",87.44,1-Jul-15,30-Jun-16,,2.9,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Virginia Mason Medical Center,500005,42660,"Seattle-Tacoma-Bellevue, WA",88.39,1-Jul-15,30-Jun-16,,2.4,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+University of Washington Medical Center,500008,42660,"Seattle-Tacoma-Bellevue, WA",89.56,1-Jul-15,30-Jun-16,,3.5,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Highline Medical Center,500011,42660,"Seattle-Tacoma-Bellevue, WA",82.56,1-Jul-15,30-Jun-16,,3.0,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,**
+Providence Regional Medical Center Everett,500014,42660,"Seattle-Tacoma-Bellevue, WA",86.00,1-Jul-15,30-Jun-16,,2.1,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Multicare Auburn Medical Center,500015,42660,"Seattle-Tacoma-Bellevue, WA",80.33,1-Jul-15,30-Jun-16,,3.4,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,*
+St. Clare Hospital,500021,42660,"Seattle-Tacoma-Bellevue, WA",83.94,1-Jul-15,30-Jun-16,,2.0,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Swedish Medical Center/Cherry Hill,500025,42660,"Seattle-Tacoma-Bellevue, WA",85.39,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,**
+Swedish Edmonds Hospital,500026,42660,"Seattle-Tacoma-Bellevue, WA",83.06,1-Jul-15,30-Jun-16,,3.0,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,*
+Swedish Medical Center,500027,42660,"Seattle-Tacoma-Bellevue, WA",85.33,1-Jul-15,30-Jun-16,,1.9,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+PeaceHealth Southwest Medical Center,500050,38900,"Portland-Vancouver-Hillsboro, OR-WA",83.50,1-Jul-15,30-Jun-16,,2.1,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Overlake Hospital Medical Center,500051,42660,"Seattle-Tacoma-Bellevue, WA",87.28,1-Jul-15,30-Jun-16,,3.0,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Group Health Central Hospital,500052,42660,"Seattle-Tacoma-Bellevue, WA",N/A,1-Jul-15,30-Jun-16,***,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,**
+Cascade Valley Hospital,500060,42660,"Seattle-Tacoma-Bellevue, WA",87.17,1-Jul-15,30-Jun-16,,2.5,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Harborview Medical Center,500064,42660,"Seattle-Tacoma-Bellevue, WA",85.50,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,7,N,1-Jul-16,31-Aug-16,
+Multicare Good Samaritan Hospital,500079,42660,"Seattle-Tacoma-Bellevue, WA",84.28,1-Jul-15,30-Jun-16,,2.6,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Evergreen Health Monroe,500084,42660,"Seattle-Tacoma-Bellevue, WA",85.39,1-Jul-15,30-Jun-16,,2.7,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Valley Medical Center,500088,42660,"Seattle-Tacoma-Bellevue, WA",86.44,1-Jul-15,30-Jun-16,,2.1,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,**
+Evergreen Health Medical Center,500124,42660,"Seattle-Tacoma-Bellevue, WA",87.28,1-Jul-15,30-Jun-16,,2.0,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Tacoma General Allenmore Hospital,500129,42660,"Seattle-Tacoma-Bellevue, WA",83.78,1-Jul-15,30-Jun-16,,3.4,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,*
+St. Francis Community Hospital,500141,42660,"Seattle-Tacoma-Bellevue, WA",84.44,1-Jul-15,30-Jun-16,,2.6,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Legacy Salmon Creek Medical Center,500150,38900,"Portland-Vancouver-Hillsboro, OR-WA",89.17,1-Jul-15,30-Jun-16,,2.2,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+St. Anthony Hospital,500151,42660,"Seattle-Tacoma-Bellevue, WA",86.50,1-Jul-15,30-Jun-16,,1.7,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Swedish Issaquah,500152,42660,"Seattle-Tacoma-Bellevue, WA",86.67,1-Jul-15,30-Jun-16,,3.1,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Waukesha Memorial Hospital,520008,33340,"Milwaukee-Waukesha-West Allis, WI",87.06,1-Jul-15,30-Jun-16,,3.4,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Columbia St. Mary's Hospital Ozaukee,520027,33340,"Milwaukee-Waukesha-West Allis, WI",86.11,1-Jul-15,30-Jun-16,,2.3,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+The Monroe Clinic,520028,31540,"Madison, WI",90.44,1-Jul-15,30-Jun-16,,2.3,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Aurora Medical Center in Washington County,520038,33340,"Milwaukee-Waukesha-West Allis, WI",89.11,1-Jul-15,30-Jun-16,,2.4,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Divine Savior Healthcare,520041,31540,"Madison, WI",87.94,1-Jul-15,30-Jun-16,,2.5,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Columbia St. Mary's Hospital Milwaukee,520051,33340,"Milwaukee-Waukesha-West Allis, WI",85.11,1-Jul-15,30-Jun-16,,2.4,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Oconomowoc Memorial Hospital,520062,33340,"Milwaukee-Waukesha-West Allis, WI",88.06,1-Jul-15,30-Jun-16,,2.5,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+St. Joseph's Community Hospital of West Bend,520063,33340,"Milwaukee-Waukesha-West Allis, WI",87.83,1-Jul-15,30-Jun-16,,2.8,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Wheaton Franciscan Healthcare-St. Francis,520078,33340,"Milwaukee-Waukesha-West Allis, WI",84.50,1-Jul-15,30-Jun-16,,2.7,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+St. Mary's Hospital,520083,31540,"Madison, WI",88.44,1-Jul-15,30-Jun-16,,2.9,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+University of Wisconsin Hospitals & Clinics Authority,520098,31540,"Madison, WI",89.22,1-Jul-15,30-Jun-16,,2.2,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Community Memorial Hospital,520103,33340,"Milwaukee-Waukesha-West Allis, WI",88.06,1-Jul-15,30-Jun-16,,3.2,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Wheaton Franciscan-St. Joseph,520136,33340,"Milwaukee-Waukesha-West Allis, WI",85.94,1-Jul-15,30-Jun-16,,3.1,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Aurora St. Luke's Medical Center,520138,33340,"Milwaukee-Waukesha-West Allis, WI",86.83,1-Jul-15,30-Jun-16,,2.8,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Aurora West Allis Medical Center,520139,33340,"Milwaukee-Waukesha-West Allis, WI",86.67,1-Jul-15,30-Jun-16,,2.8,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Froedtert Memorial Lutheran Hospital,520177,33340,"Milwaukee-Waukesha-West Allis, WI",88.72,1-Jul-15,30-Jun-16,,3.5,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Orthopaedic Hospital of Wisconsin,520194,33340,"Milwaukee-Waukesha-West Allis, WI",93.72,1-Jul-15,30-Jun-16,,2.2,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Columbia Center,520195,33340,"Milwaukee-Waukesha-West Allis, WI",90.78,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,**
+Wheaton Franciscan Healthcare-Franklin,520204,33340,"Milwaukee-Waukesha-West Allis, WI",88.78,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+Midwest Orthopedic Specialty Hospital,520205,33340,"Milwaukee-Waukesha-West Allis, WI",92.56,1-Jul-15,30-Jun-16,,3.4,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Aurora Medical Center,520206,33340,"Milwaukee-Waukesha-West Allis, WI",87.83,1-Jul-15,30-Jun-16,,2.2,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Aurora Medical Center,520207,33340,"Milwaukee-Waukesha-West Allis, WI",89.33,1-Jul-15,30-Jun-16,,2.2,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+The Hospital at Westlake Medical Center,670006,12420,"Austin-Round Rock, TX",89.50,1-Jul-15,30-Jun-16,,2.5,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Baylor Scott & White Medical Center-Round Rock,670034,12420,"Austin-Round Rock, TX",87.83,1-Jul-15,30-Jun-16,,2.2,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Seton Medical Center Williamson,670041,12420,"Austin-Round Rock, TX",87.94,1-Jul-15,30-Jun-16,,2.6,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Cedar Park Regional Medical Center,670043,12420,"Austin-Round Rock, TX",83.72,1-Jul-15,30-Jun-16,,3.5,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,*
+Seton Medical Center Hays,670056,12420,"Austin-Round Rock, TX",87.89,1-Jul-15,30-Jun-16,,3.7,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+South Texas Surgical Hospital,670061,18580,"Corpus Christi, TX",90.50,1-Jul-15,30-Jun-16,,2.8,1-Apr-13,31-Mar-16,,N,1-Jul-16,31-Aug-16,
+Lakeway Regional Medical Center,670079,12420,"Austin-Round Rock, TX",83.00,1-Jul-15,30-Jun-16,,N/A,1-Apr-13,31-Mar-16,1,N,1-Jul-16,31-Aug-16,
+Seton Medical Center Harker Heights,670080,28660,"Killeen-Temple, TX",88.94,1-Jul-15,30-Jun-16,,2.9,1-Apr-13,31-Mar-16,,Y,1-Jul-16,31-Aug-16,
+Baylor Scott & White Emergency Medical Center-Cedar Park,670087,12420,"Austin-Round Rock, TX",N/A,1-Jul-15,30-Jun-16,***,N/A,1-Apr-13,31-Mar-16,5,N,1-Jul-16,31-Aug-16,**

@@ -1,0 +1,112 @@
+                              207 of 999 DOCUMENTS
+
+
+                                 Network World
+
+                     September 8, 2015 Tuesday 08:38 AM EST
+
+Light-based networks could replace wires for hospital patients
+
+BYLINE: Patrick Nelson
+
+SECTION: NEWS
+
+LENGTH: 557  words
+
+
+Click for image
+
+Interference has been a major issue when hospitals have tried to replace the
+cluttered, bulky wiring used to monitor patients' conditions-those are the wires
+protruding from a body, along with the associated beeps, as seen in the hospital
+TV drama procedurals we know and love.
+
+Hard-wiring, though, has never been an ideal solution for biomedical signals-it
+prevents patients from moving around, for one thing. That ties up expensive
+hospital beds.
+
+Interference
+
+RF interference can not only interfere with other signals, but it can apparently
+damage hospital equipment, say some researchers in South Korea.
+
+Those researchers, from Pukyong National University in Busan, reckon that they
+have a better solution. They want to use light instead.
+
+Visible light
+
+Li-Fi, or visible-light communications (VLC), could be a better solution if it
+can be made to work accurately. The researchers say they've gotten it to
+transmit signals from an electroencephalograph (EEG) over 50 centimeters. Their
+findings were published in IEEE Sensors Journal.
+
+An EEG measures brain activity along the scalp. Voltage fluctuations are
+monitored from the neurons of the brain.
+
+RGB LEDs
+
+The team used LEDs' line of sight to communicate the EEG signals.
+
+The transmitter consisted of RGB LEDs, and the receiver used three photodiodes
+with red, green, and blue filters.
+
+Photodiodes are semiconductors that convert light into current-photons are
+absorbed by the diodes.
+
+"It's a very much friendlier means of transmitting biomedical signals in a
+hospital," Yeon Ho Chung, an engineer at the university, said in an IEEE
+Spectrum report.
+
+Weak signals
+
+The EEG signals were relatively weak, Chung said in the IEEE article. Power
+ranged from one half to 100 millivolts, and frequencies between one half and 45
+hertz. So the signals had to be amplified.
+
+Distortion was also an issue, according to the article. That's where the filters
+came in. The group used them to match each of the three LED colors, thus
+eliminating bit errors.
+
+"You have to be very accurate. You can't make any mistakes in transmitting,"
+Chung said, according to the report.
+
+Other hospital monitoring
+
+Brain monitoring with EEGs isn't the only successful demonstration of Li-Fi in a
+hospital environment, the publication says. Electrocardiogram (EKG) readings
+have also been obtained with light by fellow scientists of the EEG team.
+
+EKGs measure electrical activity in the heart and are used for finding health
+problems. The instrument displays results as spikes and dips in line tracings.
+
+Communications for paralyzed patients
+
+Electrooculography (EOG), a measurement of differences between the back and
+front of the eye, could also potentially use the same visible light
+communication technique.
+
+It's used for eye diagnosis, but can also be used for detecting eye movement.
+Thus, it could conceivably be used by paralyzed individuals for
+communication-without hindering wires, IEEE Spectrum says.
+
+What happens to our TV shows?
+
+But the big question, obviously, and without wanting to sound too facetious
+about this important and potentially life-changing invention for some, is what's
+going to happen to the TV procedural's dramatic effect, when there aren't any
+wires sticking out of the patients and they're nonchalantly walking around the
+ward?
+
+There's the drip still. And, hopefully, we'll still have the dramatic beeps.
+
+LOAD-DATE: September 9, 2015
+
+LANGUAGE: ENGLISH
+
+PUBLICATION-TYPE: Newspaper
+
+
+                 Copyright 2015 International Data Group, Inc.
+                              All Rights Reserved
+
+
