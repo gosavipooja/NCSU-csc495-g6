@@ -1,16 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-
+        <style type="text/css">
+            .navigation {
+                margin-top: 10px;
+            }
+        </style>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
     </head>
     <body>
-        <h1>
-            Crime Prediction by Chicago Zip Code
-        </h1>
-        <hr/>
-        <!-- This is where other pages place their content -->
-        {% block body %}
-        {% endblock %}
-        <!-- End other page content -->
+        <div class="container">
+            <!--NAVBAR-->
+            <div class="row">
+                <div class="col">
+                    <nav class="navbar navbar-default navigation">
+                        <div class="container-fluid">
+                            <div class="navbar-header">
+                                <a class="navbar-brand" href="/">
+                                    Crime Prediction
+                                </a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <!--CONTENT-->
+                <!-- This is where other pages place their content -->
+                {% block body %}
+                {% endblock %}
+                <!-- End other page content -->
+        </div>
     </body>
 </html>

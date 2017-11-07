@@ -3,13 +3,27 @@
 {% block title %}Index{% endblock %}
 
 {% block body %}
-    <h2>
-        Choose a Zip Code
-    </h2>
-    <form action="/" method="post">
-        {% csrf_token %}
-        {{ form }}
-        <input type="submit" value="Submit" />
-    </form>
+
+    <div class="row">
+        <div class="col">
+            <h1>About</h1>
+            <h2>Goal</h2>
+            <p>This application takes data from multiple sources including but not limited to <a href="http://www.city-data.com/zipmaps/Chicago-Illinois.html">Chicago zipcode maps</a>, the <a href="https://www.wunderground.com/weather/api">Wunderground weather API</a>, and <a href="https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2">the Chicago crime database</a> in order to estimate the number of violent and non-violent crimes that will occur within a given zipcode during a one month time-span going forward.</p>
+            <h2>Purpose</h2>
+            <p>We created this application to satisfy the requirements for CSC495 at NC State University, a special-topics course on data driven decision making. While this application is a prototype, the practical benefits are hard to count. At the moment, it can give a user insight on how much crime will occur in a given area over a coming period of time based on data gathered over the past 15 years. These insights can guide a person on where they may want to live in the Chicago area. With further development, this application could be expanded to include other metropolitan areas as well as offer more in-depth analytics.</p>
+            <h2>How to Use</h2>
+            <p>To use this application, simply enter a zipcode below and the application will retrieve a crime forecast on what crime can be expected over the next month in the given area. <strong>Output data is not exact nor is it a guarentee of a trend, it is a computers calculations. Anything can happen and output should should be taken lightly. Always be safe!</strong></p>
+        </div>
+    </div>
+    <hr/>
+    <div class="row">
+        <div class="col" style="text-align:center;">
+            <form action="/" method="post">
+                {% csrf_token %}
+                {{ form }}
+                <input type="submit" value="Submit" />
+            </form>
+        </div>
+    </div>
 
 {% endblock %}
