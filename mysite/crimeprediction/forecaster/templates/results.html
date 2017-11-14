@@ -11,6 +11,24 @@
             </h1>
         </div>
     </div>
+    <div class="row">
+        <div class="col">
+            <p>
+                Over the next week, it is estimated that {{ zipcode }} will see around <strong>n violent crimes</strong> (which includes assaults/battery, murder, etc) and <strong>m non-violent crimes </strong> (which includes thefts, burglaries, etc).
+            </p>
+            <div id="forecast">
+                {% for week in weekdata %}
+
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="{{week}}" aria-valuemin="0" aria-valuemax="100" style="width: {{week}}%">
+                            <span class="sr-only">{{week}}% Complete (success)</span>
+                        </div>
+                    </div>
+
+                {% endfor %}
+            </div>
+        </div>
+    </div>
 
 
 {% endblock %}

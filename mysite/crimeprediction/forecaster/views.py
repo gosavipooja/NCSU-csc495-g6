@@ -27,5 +27,8 @@ def index(request):
 
 def results(request, zipcode):
     template = loader.get_template('results.html')
-    context = { "zipcode" : zipcode }
+    weeks = []
+    for i in range(1,6,1):
+        weeks.append(20 * i)
+    context = { "zipcode" : zipcode, "weekdata" : weeks }
     return HttpResponse(template.render(context, request))
