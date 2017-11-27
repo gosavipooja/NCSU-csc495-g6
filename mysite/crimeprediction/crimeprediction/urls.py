@@ -16,9 +16,12 @@ Including another URLconf
 
 from django.conf.urls import include, url
 from django.contrib import admin
+from django.conf import settings
+
 
 urlpatterns = [
     url(r'^forecaster/', include('forecaster.urls')),
     url(r'^admin/', admin.site.urls),
     url(r'', include('forecaster.urls'))
 ]
+

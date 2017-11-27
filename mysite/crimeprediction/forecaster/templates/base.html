@@ -1,31 +1,67 @@
+{% load filters %}
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <style type="text/css" > #map {
+                height: 400px;
+                width: 70%;
+               }
+        </style>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://code.highcharts.com/maps/highmaps.js"></script>
+        <script src="https://code.highcharts.com/maps/modules/data.js"></script>
+        <script src="https://code.highcharts.com/maps/modules/exporting.js"></script>
+        <script src="https://code.highcharts.com/mapdata/countries/us/us-il-all.js"></script>
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/data.js"></script>
+        <script src="https://code.highcharts.com/modules/series-label.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+        <!-- Additional files for the Highslide popup effect -->
+        <script src="https://www.highcharts.com/media/com_demo/js/highslide-full.min.js"></script>
+        <script src="https://www.highcharts.com/media/com_demo/js/highslide.config.js" charset="utf-8"></script>
+        <link rel="stylesheet" type="text/css" href="https://www.highcharts.com/media/com_demo/css/highslide.css" />
+
+
         <style type="text/css">
 
         </style>
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet"' href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+<!--        {% load staticfiles %}
+        <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css'%}"> -->
     </head>
     <body style="margin: 10px;">
-        <div class="container">
+        <div class="contain">
             <!--NAVBAR-->
             <div class="row">
                 <div class="col">
-                    <nav class="navbar navbar-default navigation">
+                    <nav class="navbar navbar-inverse navigation">
                         <div class="container-fluid">
                             <div class="navbar-header">
-                                <a class="navbar-brand" href="/">
-                                    Crime Prediction
-                                </a>
+                                <a class="navbar-brand" href="/">Crime Prediction</a>
                             </div>
+                        <div class = "collapse navbar-collapse">
+                            <ul class="nav navbar-nav">
+                                <li class=''>
+                                    {% block nav-home %}<a href="/forecaster/trends">Trends</a>{% endblock %}
+                                </li>
+                                <li class=''>
+                                    <a href="/forecaster/predict">Predictions</a>
+                                </li>
+                            </ul>
                         </div>
+                        </div>
+
                     </nav>
                 </div>
             </div>
             <!--CONTENT-->
                 <!-- This is where other pages place their content -->
                 {% block body %}
+
                 {% endblock %}
                 <!-- End other page content -->
         </div>
