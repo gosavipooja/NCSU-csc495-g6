@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+{% load filters %}
+
+{% load static %}
+
+{% block title %}Trends{% endblock %}
+
+{% block body %}
+
+<div id="container">
+<div id="cc" style="height: 30px">
+</div>
+
+
+<div id = 'map' style="width: 310px; height: 400px" >
+    
+</div>
+
+<script type="text/javascript">
+
+     var map, heatmap;
+
+       function initialize() {
+        var myLatLng = {lat: -25.363, lng: 131.044};
+
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: myLatLng
+        });
+
+        var marker = new google.maps.Marker({
+          position: myLatLng,
+          map: map,
+          title: 'Hello World!'
+        });
+
+           heatmap = new google.maps.visualization.HeatmapLayer({
+          data: [new google.maps.LatLng(-25.363, 131.044)],
+          map: map
+        });
+
+      }
+
+</script>
+
+
+
+
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKX0EbfMDRDspKyNMXNE7rmvS9ebzySJE&libraries=visualization&callback=initialize">
+    </script>
+
+ </div>
+
+{% endblock %}

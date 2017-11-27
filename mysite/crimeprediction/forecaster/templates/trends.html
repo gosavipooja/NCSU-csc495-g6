@@ -1,0 +1,105 @@
+{% extends 'base.html' %}
+{% load filters %}
+
+{% load static %}
+
+{% block title %}Trends{% endblock %}
+
+{% block body %}
+
+<div id="container">
+<div id="cc" style="height: 30px">
+</div>
+
+<div id="cont" style="width:100%; height:400px;"></div>
+    <script type="text/javascript">
+        Highcharts.chart('cont', {
+            chart: {
+                type: 'line'
+            },
+
+            title: {
+                text: 'Frequency of crimes over the years'
+            },
+
+            xAxis: {
+                categories: [
+                {% for y in year%}
+                    {{y}}, 
+                {% endfor %} ]
+            },
+
+    yAxis: {
+        title: {
+            text: 'Number of crimes'
+        }
+    },
+            series: [
+                {% for crime in crime_type %}
+            {
+                name: '{{crime}}',
+                data: [
+                    {% for yr in year %}
+                        {% with yr|addstr:";"|addstr:crime as templa %}
+                            {{crime_data|dic_val_or_null:templa}},
+                        {% endwith %}
+
+                    {% endfor %}
+                    ]
+            },
+                {% endfor %}
+
+            ]
+
+        });
+    
+    </script>
+
+<div id="map"></div>
+
+<script type="text/javascript" src= "{% static 'js/heatmap.js' %}">
+</script>
+
+
+
+<!-- <div id = 'map_canvas' style="width: 310px; height: 400px" >
+    
+</div>
+ -->
+<!-- <script type="text/javascript">
+
+     var map, heatmap;
+
+       function initialize() {
+        var myLatLng = {lat: -25.363, lng: 131.044};
+
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: myLatLng
+        });
+
+        var marker = new google.maps.Marker({
+          position: myLatLng,
+          map: map,
+          title: 'Hello World!'
+        });
+
+           heatmap = new google.maps.visualization.HeatmapLayer({
+          data: [new google.maps.LatLng(-25.363, 131.044)],
+          map: map
+        });
+
+      }
+
+</script>
+
+
+
+
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKX0EbfMDRDspKyNMXNE7rmvS9ebzySJE&libraries=visualization&callback=initialize">
+    </script>
+ -->
+ </div>
+
+{% endblock %}
