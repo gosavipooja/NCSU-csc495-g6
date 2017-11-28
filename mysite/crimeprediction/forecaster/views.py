@@ -30,8 +30,15 @@ global ans;
 
 ans = {}
 
+global location_crimes_per_year;
+global trend_location_data;
+global arrest_crimes_per_year;
+global trend_arrest_data;
+
 
 trends_crime_data = {}
+trend_location_data = {}
+trend_arrest_data = {}
 
 year=[]
 
@@ -42,6 +49,8 @@ crime_data_test = pd.DataFrame();
 
 models= {};
 data_crimes_per_year = [];
+location_crimes_per_year = [];
+arrest_crimes_per_year = [];
 crime_type = [];
 zip_codes = [];
 
@@ -228,6 +237,11 @@ def trends(request):
     global raw_crime_data
     global year
     global trends_crime_data
+    global location_crimes_per_year
+    global arrest_crimes_per_year
+    global trend_location_data
+    global trend_arrest_data
+
     cursor,conn = db_conn()
     # if(raw_crime_data.empty):
     #     extract_raw_crime_data(conn)
@@ -242,6 +256,18 @@ def trends(request):
                                  GROUP BY `Primary Type`, year\
                                  ORDER BY year"
         data_crimes_per_year = extract_data(cursor, query_crimes_per_year)
+
+    if(not location_crimes_per_year):
+        query_location_crimes_per_year = """SELECT * FROM testdb.crimes_by_location_description 
+                                            WHERE `Location Description` IN ('ABANDONED BUILDING', 'STREET', 'ALLEY', 'SIDEWALK', 'APARTMENT', 'RESIDENCE', 'SMALL RETAIL STORE')
+                                            ORDER BY record_year, `Location Description`"""
+        location_crimes_per_year = extract_data(cursor, query_location_crimes_per_year)
+
+    if(not arrest_crimes_per_year):
+        query_arrest_crimes_per_year = """SELECT * FROM testdb.Arrest_Count_By_Year 
+                                            ORDER BY `Year`, `Primary Type`"""
+        arrest_crimes_per_year = extract_data(cursor, query_arrest_crimes_per_year)
+
     weekdata = ['first', 'second']
 
     for row in data_crimes_per_year:
@@ -253,9 +279,29 @@ def trends(request):
             trends_crime_data[row[1]][row[0]] = row[2]
         else:
             trends_crime_data[row[1]] = {row[0] : row[2]}
+
+    locations_list = []
+    trend_location_data = {'2012': [], '2013': [], '2014': [], '2015': [], '2016': [], '2017': [] }
+    #trend_location_data = {'2012': []}
+    for row in location_crimes_per_year:
+        if(row[1] not in locations_list):
+            locations_list.append(row[1])
+        if(str(row[2]) in trend_location_data):
+            trend_location_data[str(row[2])].append(row[0])
+
+    #type_list = []
+    trend_arrest_data = {'ASSAULT': [], 'BATTERY': [], 'BURGULARY': [], 'CRIM SEXUAL ASSAULT': [], 'HOMICIDE': [],
+                         'ROBBERY': [], 'THEFT': []}
+    for row in arrest_crimes_per_year:
+        if (str(row[1]) in trend_arrest_data):
+            trend_arrest_data[str(row[1])].append(row[2])
+
+    print(locations_list)
     print(trends_crime_data)
+    print(trend_location_data)
+    print(trend_arrest_data)
     template = loader.get_template('trends.html')
-    context = {'crime_type' : crime_type, 'year': year,'weekdata': weekdata, 'crime_data': trends_crime_data}
+    context = {'crime_type' : crime_type, 'year': year,'weekdata': weekdata, 'crime_data': trends_crime_data, 'location_data': trend_location_data, 'locations_list': locations_list, 'arrest_data': trend_arrest_data}
     return HttpResponse(template.render(context, request))
 
 
