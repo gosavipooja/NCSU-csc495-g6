@@ -18,7 +18,11 @@ def dic_val_or_null(crime_data, year_crime):
 
 @register.filter(name='get_val')
 def get_val(list_name, index):
-	return list_name[index]
+	if(isinstance(list_name,float)):
+		return int(list_name[index])
+	else:
+		return list_name[index]
+
 
 @register.filter
 def addstr(arg1, arg2):

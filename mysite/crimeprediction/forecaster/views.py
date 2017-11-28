@@ -85,7 +85,7 @@ def create_model(conn, crime_type):
 
                                                                   test_size=.01, random_state=123)
     # specify the lasso regression model
-    model=LassoLarsCV(cv=10, precompute=False).fit(pred_train,tar_train)
+    model=LassoCV(cv=10, precompute=False).fit(pred_train,tar_train)
     # print variable names and regression coefficients
     print(crime_type)
     print(dict(zip(predictors.columns, model.coef_)))
@@ -193,13 +193,13 @@ def extract_weekly_crime_data(conn):
     crime_data_train = pd.read_sql("SELECT *\
                             FROM\
                             testdb.final_prediction_table \
-                            WHERE lat IS NOT NULL AND (year NOT LIKE  '2016' OR (week_of_year NOT LIKE '51' AND week_of_year NOT LIKE '52') ) \
+                            WHERE lat IS NOT NULL AND (year NOT LIKE  '2017' OR (week_of_year NOT LIKE '41' AND week_of_year NOT LIKE '41') ) \
                             ;", con=conn)
     crime_data_train =  crime_data_train.drop(['avg_temp'], axis=1)
     crime_data_test = pd.read_sql("SELECT *\
                             FROM\
                             testdb.final_prediction_table \
-                            WHERE lat IS NOT NULL AND (year LIKE  '2016' AND (week_of_year LIKE '51' OR week_of_year LIKE '52') ) \
+                            WHERE lat IS NOT NULL AND (year LIKE  '2017' AND (week_of_year LIKE '41' OR week_of_year LIKE '41') ) \
                             ;", con=conn)
     crime_data_test =  crime_data_test.drop(['avg_temp'], axis=1)
 
