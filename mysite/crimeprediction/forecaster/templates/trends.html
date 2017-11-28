@@ -55,6 +55,75 @@
     
     </script>
 
+    <div id="location-cont" style="width:100%; height:400px;"></div>
+    <script type="text/javascript">
+        Highcharts.chart('location-cont', {
+    chart: {
+        type: 'bar'
+    },
+    title: {
+        text: 'Crimes By Location Per year'
+    },
+    xAxis: {
+        categories: [
+                {% for location in location_list%}
+                    {{location}},
+                {% endfor %} ]
+            },
+        title: {
+            text: null
+        }
+    },
+    yAxis: {
+        min: 0,
+        title: {
+            text: 'Number of crimes',
+            align: 'high'
+        },
+        labels: {
+            overflow: 'justify'
+        }
+    },
+    plotOptions: {
+        bar: {
+            dataLabels: {
+                enabled: true
+            }
+        }
+    },
+    legend: {
+        layout: 'vertical',
+        align: 'right',
+        verticalAlign: 'top',
+        x: -40,
+        y: 80,
+        floating: true,
+        borderWidth: 1,
+        backgroundColor: ((Highcharts.theme && Highcharts.theme.legendBackgroundColor) || '#FFFFFF'),
+        shadow: true
+    },
+    credits: {
+        enabled: false
+    },
+      series: [
+        {% for loc in location_data %}
+    {
+        name: '{{loc}}',
+        data: [
+            {% for yr in year %}
+                {% with yr|addstr:";"|addstr:crime as templa %}
+                    {{crime_data|dic_val_or_null:templa}},
+                {% endwith %}
+
+            {% endfor %}
+            ]
+    },
+        {% endfor %}
+
+    ]
+});
+    </script>
+
 <div id="map"></div>
 
 <script type="text/javascript" src= "{% static 'js/heatmap.js' %}">

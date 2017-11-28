@@ -25,8 +25,12 @@ global raw_crime_data;
 global year;
 global trends_crime_data;
 
+global location_crimes_per_year;
+global trend_location_data;
+
 
 trends_crime_data = {}
+trend_location_data = {}
 
 year=[]
 
@@ -36,6 +40,7 @@ crime_data = pd.DataFrame();
 
 models= {};
 data_crimes_per_year = [];
+location_crimes_per_year = [];
 crime_type = [];
 zip_codes = [];
 
@@ -159,6 +164,9 @@ def trends(request):
     global raw_crime_data
     global year
     global trends_crime_data
+    global location_crimes_per_year
+    global trend_location_data
+
     cursor,conn = db_conn()
     # if(raw_crime_data.empty):
     #     extract_raw_crime_data(conn)
@@ -173,6 +181,11 @@ def trends(request):
                                  GROUP BY `Primary Type`, year\
                                  ORDER BY year"
         data_crimes_per_year = extract_data(cursor, query_crimes_per_year)
+
+    if(not location_crimes_per_year):
+        query_location_crimes_per_year = """SELECT * FROM testdb.crimes_by_location_description ORDER BY record_year, `Location Description`"""
+        location_crimes_per_year = extract_data(cursor, query_location_crimes_per_year)
+
     weekdata = ['first', 'second']
 
     for row in data_crimes_per_year:
@@ -184,9 +197,21 @@ def trends(request):
             trends_crime_data[row[1]][row[0]] = row[2]
         else:
             trends_crime_data[row[1]] = {row[0] : row[2]}
+
+    locations_list = []
+    trend_location_data = {'2012': [], '2013': [], '2014': [], '2015': [], '2016': [], '2017': [] }
+    for row in location_crimes_per_year:
+        if(row[1] not in locations_list):
+            locations_list.append(row[1])
+        if(str(row[2]) in trend_location_data):
+            trend_location_data[str(row[2])].append(row[0])
+
+
+
     print(trends_crime_data)
+    print(trend_location_data)
     template = loader.get_template('trends.html')
-    context = {'crime_type' : crime_type, 'year': year,'weekdata': weekdata, 'crime_data': trends_crime_data}
+    context = {'crime_type' : crime_type, 'year': year,'weekdata': weekdata, 'crime_data': trends_crime_data, 'location_data': trend_location_data, 'locations_list': locations_list}
     return HttpResponse(template.render(context, request))
 
 

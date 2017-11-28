@@ -3,3 +3,4 @@
 /output
 *.pyc
 .idea
+mysite/crimeprediction/db.sqlite3
