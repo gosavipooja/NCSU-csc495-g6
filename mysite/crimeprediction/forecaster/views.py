@@ -32,10 +32,13 @@ ans = {}
 
 global location_crimes_per_year;
 global trend_location_data;
+global arrest_crimes_per_year;
+global trend_arrest_data;
 
 
 trends_crime_data = {}
 trend_location_data = {}
+trend_arrest_data = {}
 
 year=[]
 
@@ -47,6 +50,7 @@ crime_data_test = pd.DataFrame();
 models= {};
 data_crimes_per_year = [];
 location_crimes_per_year = [];
+arrest_crimes_per_year = [];
 crime_type = [];
 zip_codes = [];
 
@@ -234,7 +238,9 @@ def trends(request):
     global year
     global trends_crime_data
     global location_crimes_per_year
+    global arrest_crimes_per_year
     global trend_location_data
+    global trend_arrest_data
 
     cursor,conn = db_conn()
     # if(raw_crime_data.empty):
@@ -257,6 +263,11 @@ def trends(request):
                                             ORDER BY record_year, `Location Description`"""
         location_crimes_per_year = extract_data(cursor, query_location_crimes_per_year)
 
+    if(not arrest_crimes_per_year):
+        query_arrest_crimes_per_year = """SELECT * FROM testdb.Arrest_Count_By_Year 
+                                            ORDER BY `Year`, `Primary Type`"""
+        arrest_crimes_per_year = extract_data(cursor, query_arrest_crimes_per_year)
+
     weekdata = ['first', 'second']
 
     for row in data_crimes_per_year:
@@ -278,12 +289,19 @@ def trends(request):
         if(str(row[2]) in trend_location_data):
             trend_location_data[str(row[2])].append(row[0])
 
+    #type_list = []
+    trend_arrest_data = {'ASSAULT': [], 'BATTERY': [], 'BURGULARY': [], 'CRIM SEXUAL ASSAULT': [], 'HOMICIDE': [],
+                         'ROBBERY': [], 'THEFT': []}
+    for row in arrest_crimes_per_year:
+        if (str(row[1]) in trend_arrest_data):
+            trend_arrest_data[str(row[1])].append(row[2])
 
     print(locations_list)
     print(trends_crime_data)
     print(trend_location_data)
+    print(trend_arrest_data)
     template = loader.get_template('trends.html')
-    context = {'crime_type' : crime_type, 'year': year,'weekdata': weekdata, 'crime_data': trends_crime_data, 'location_data': trend_location_data, 'locations_list': locations_list}
+    context = {'crime_type' : crime_type, 'year': year,'weekdata': weekdata, 'crime_data': trends_crime_data, 'location_data': trend_location_data, 'locations_list': locations_list, 'arrest_data': trend_arrest_data}
     return HttpResponse(template.render(context, request))
 
 
