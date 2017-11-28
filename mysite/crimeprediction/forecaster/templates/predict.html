@@ -11,8 +11,129 @@
 <div id="cc" style="height: 30px">
 </div>
 
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-6" id = 'map_assault' style="width: 600px; height: 400px" ></div>
+        <div class="col-lg-7" style="width: 60px;"></div>
+        <div class="col-lg-8" id = 'map_battery' style="width: 600px; height: 400px; " ></div>
+    </div>
+    <div class="row">
+        <div class="col-lg-6" id = 'map_assault' style="width: 600px; height: 400px" >
+        </div>
+        <div class="col-lg-6">
+        </div>
+    </div>
+</div>
+    
 
-<div id = 'map' style="width: 310px; height: 400px" >
+<script type="text/javascript">
+
+     var map, heatmap;
+
+       function initialize_assault() {
+       var myLatLng = {lat: 41.846880, lng: -87.670664};
+
+
+        var map = new google.maps.Map(document.getElementById('map_assault'), {
+         zoom: 10,
+          center: myLatLng
+        });
+
+        {% for i in assault_len %}
+
+            var marker = new google.maps.Marker({
+              position: {lat: {{assault_lat|get_val:i}}, lng: {{assault_lon|get_val:i}}},
+              map: map,
+              title: '{{assault_val|get_val:i}}'
+            });
+
+
+        {% endfor %}
+
+           heatmap = new google.maps.visualization.HeatmapLayer({
+          data: [
+              {% for i in assault_len %}
+
+                { location: new google.maps.LatLng({{assault_lat|get_val:i}}, {{assault_lon|get_val:i}}), weight: 50*{{assault_val|get_val:i}}},
+
+              {% endfor %}
+
+          ],
+          map: map,
+          radius: 35
+        });
+
+        initialize_theft();
+
+      }
+
+</script>
+
+
+
+
+<!--     <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKX0EbfMDRDspKyNMXNE7rmvS9ebzySJE&libraries=visualization&callback=initialize_assault">
+    </script>
+ -->
+
+ <div id="cc" style="height: 30px">
+</div>
+
+
+
+<script type="text/javascript">
+
+     var map, heatmap;
+
+       function initialize_battery() {
+       var myLatLng = {lat: 41.846880, lng: -87.670664};
+
+
+        var map = new google.maps.Map(document.getElementById('map_battery'), {
+         zoom: 10,
+          center: myLatLng
+        });
+
+        {% for i in battery_len %}
+
+            var marker = new google.maps.Marker({
+              position: {lat: {{battery_lat|get_val:i}}, lng: {{battery_lon|get_val:i}}},
+              map: map,
+              title: '{{battery_val|get_val:i}}'
+            });
+
+
+        {% endfor %}
+
+           heatmap = new google.maps.visualization.HeatmapLayer({
+          data: [
+              {% for i in battery_len %}
+
+                { location: new google.maps.LatLng({{battery_lat|get_val:i}}, {{battery_lon|get_val:i}}), weight: 50*{{battery_val|get_val:i}}},
+
+              {% endfor %}
+
+          ],
+          map: map,
+          radius: 35
+        });
+      }
+
+</script>
+
+
+
+
+<!--     <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKX0EbfMDRDspKyNMXNE7rmvS9ebzySJE&libraries=visualization&callback=initialize_battery">
+    </script>
+ -->
+<div id="cc" style="height: 30px">
+</div>
+
+
+<div id = 'map_theft' style="width: 600px; height: 400px" >
     
 </div>
 
@@ -20,24 +141,151 @@
 
      var map, heatmap;
 
-       function initialize() {
-        var myLatLng = {lat: -25.363, lng: 131.044};
+       function initialize_theft() {
+       var myLatLng = {lat: 41.846880, lng: -87.670664};
 
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 4,
+
+        var map = new google.maps.Map(document.getElementById('map_theft'), {
+         zoom: 10,
           center: myLatLng
         });
 
-        var marker = new google.maps.Marker({
-          position: myLatLng,
-          map: map,
-          title: 'Hello World!'
-        });
+        {% for i in theft_len %}
+
+            var marker = new google.maps.Marker({
+              position: {lat: {{theft_lat|get_val:i}}, lng: {{theft_lon|get_val:i}}},
+              map: map,
+              title: '{{theft_val|get_val:i}}'
+            });
+
+
+        {% endfor %}
 
            heatmap = new google.maps.visualization.HeatmapLayer({
-          data: [new google.maps.LatLng(-25.363, 131.044)],
-          map: map
+          data: [
+              {% for i in theft_len %}
+
+                { location: new google.maps.LatLng({{theft_lat|get_val:i}}, {{theft_lon|get_val:i}}), weight: 50*{{theft_val|get_val:i}}},
+
+              {% endfor %}
+
+          ],
+          map: map,
+          radius: 35
         });
+        initialize_burglary();
+
+      }
+
+</script>
+
+
+
+
+<!--     <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKX0EbfMDRDspKyNMXNE7rmvS9ebzySJE&libraries=visualization&callback=initialize_theft">
+    </script>
+ --><div id="cc" style="height: 30px">
+</div>
+
+
+<div id = 'map_burglary' style="width: 600px; height: 400px" >
+    
+</div>
+
+<script type="text/javascript">
+
+     var map, heatmap;
+
+       function initialize_burglary() {
+        var myLatLng = {lat: 41.846880, lng: -87.670664};
+   
+        var map = new google.maps.Map(document.getElementById('map_burglary'), {
+          zoom: 10,
+          center: myLatLng
+        });
+
+        {% for i in burglary_len %}
+
+            var marker = new google.maps.Marker({
+              position: {lat: {{burglary_lat|get_val:i}}, lng: {{burglary_lon|get_val:i}}},
+              map: map,
+              title: '{{burglary_val|get_val:i}}'
+            });
+
+
+        {% endfor %}
+
+           heatmap = new google.maps.visualization.HeatmapLayer({
+          data: [
+              {% for i in burglary_len %}
+
+                { location: new google.maps.LatLng({{burglary_lat|get_val:i}}, {{burglary_lon|get_val:i}}), weight: 50*{{burglary_val|get_val:i}}},
+
+              {% endfor %}
+
+          ],
+          map: map,
+          radius: 35
+        });
+
+
+
+
+
+        initialize_battery();
+
+      }
+
+</script>
+
+
+
+
+<div id="cc" style="height: 30px">
+</div>
+
+<div id = 'map_robbery' style="width: 600px; height: 400px" >
+    
+</div>
+
+<script type="text/javascript">
+
+     var map, heatmap;
+
+       function initialize_robbery() {
+       var myLatLng = {lat: 41.846880, lng: -87.670664};
+
+
+        var map = new google.maps.Map(document.getElementById('map_robbery'), {
+         zoom: 10,
+          center: myLatLng
+        });
+
+        {% for i in robbery_len %}
+
+            var marker = new google.maps.Marker({
+              position: {lat: {{robbery_lat|get_val:i}}, lng: {{robbery_lon|get_val:i}}},
+              map: map,
+              title: '{{robbery_val|get_val:i}}'
+            });
+
+
+        {% endfor %}
+
+           heatmap = new google.maps.visualization.HeatmapLayer({
+          data: [
+              {% for i in burglary_len %}
+
+                { location: new google.maps.LatLng({{robbery_lat|get_val:i}}, {{robbery_lon|get_val:i}}), weight: 50*{{robbery_val|get_val:i}}},
+
+              {% endfor %}
+
+          ],
+          map: map,
+          radius: 35
+        });
+        initialize_assault();
 
       }
 
@@ -47,8 +295,12 @@
 
 
     <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKX0EbfMDRDspKyNMXNE7rmvS9ebzySJE&libraries=visualization&callback=initialize">
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKX0EbfMDRDspKyNMXNE7rmvS9ebzySJE&libraries=visualization&callback=initialize_robbery">
     </script>
+
+
+
+
 
  </div>
 

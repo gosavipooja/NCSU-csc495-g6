@@ -17,6 +17,10 @@ def dic_val_or_null(crime_data, year_crime):
 		return 0
 
 
+@register.filter(name='get_val')
+def get_val(list_name, index):
+	return list_name[index]
+
 @register.filter
 def addstr(arg1, arg2):
     """concatenate arg1 & arg2"""

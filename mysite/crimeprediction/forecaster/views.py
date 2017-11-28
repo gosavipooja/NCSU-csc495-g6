@@ -20,10 +20,15 @@ global data_crimes_per_year;
 global crime_type;
 global zip_codes;
 global models;
-global crime_data;
+global crime_data_train;
+global crime_data_test;
 global raw_crime_data;
 global year;
 global trends_crime_data;
+global ans;
+
+
+ans = {}
 
 
 trends_crime_data = {}
@@ -32,7 +37,8 @@ year=[]
 
 raw_crime_data= pd.DataFrame();
 
-crime_data = pd.DataFrame();
+crime_data_train = pd.DataFrame();
+crime_data_test = pd.DataFrame();
 
 models= {};
 data_crimes_per_year = [];
@@ -42,10 +48,12 @@ zip_codes = [];
 
 def create_model(conn, crime_type):
     #global assault, battery, bur, csa, homi, rob, theft;
-    global crime_data
-    if(crime_data.empty):
+    global crime_data_train
+    global crime_data_test
+    if(crime_data_train.empty):
         extract_weekly_crime_data(conn)
-    data = crime_data[crime_data['Primary Type']==crime_type]
+    data = crime_data_train[crime_data_train['Primary Type'] == crime_type]
+    test_data = crime_data_test[crime_data_test['Primary Type'] == crime_type]
     #upper-case all DataFrame column names
     data.columns = map(str.upper, data.columns)
     # Data Management
@@ -53,23 +61,29 @@ def create_model(conn, crime_type):
     # recode1 = {1:1, 2:0}
     #data_clean['MALE']= data_clean['BIO_SEX'].map(recode1)
     #select predictor variables and target variable as separate data sets  
-    predvar = data_clean[[ 'POPULATION', 'AFRICAN_AMERICAN', 'AMERICAN_INDIAN', 'ASIAN', 'WHITE_POPULATION']]
+    predvar = data_clean[[ 'POPULATION', 'AFRICAN_AMERICAN', 'AMERICAN_INDIAN', 'ASIAN', 'WHITE_POPULATION', 'YEAR', 'WEEK_OF_YEAR',
+     'NUM_LIGHTS', 'NUM_HOUSES', 'UNEMPLOYMENT_RATE' ]]
     target = data_clean['NUM_CRIMES']
 
     # standardize predictors to have mean=0 and sd=1
     predictors=predvar.copy()
     #predictors['ZIP']=preprocessing.scale(predictors['ZIP'].astype('float64'))
-    #predictors['YEAR']=preprocessing.scale(predictors['YEAR'].astype('float64'))
-    #predictors['WEEK_OF_YEAR']=preprocessing.scale(predictors['WEEK_OF_YEAR'].astype('float64'))
     predictors['POPULATION']=preprocessing.scale(predictors['POPULATION'].astype('float64'))
     predictors['AFRICAN_AMERICAN']=preprocessing.scale(predictors['AFRICAN_AMERICAN'].astype('float64'))
     predictors['AMERICAN_INDIAN']=preprocessing.scale(predictors['AMERICAN_INDIAN'].astype('float64'))
     predictors['ASIAN']=preprocessing.scale(predictors['ASIAN'].astype('float64'))
     predictors['WHITE_POPULATION']=preprocessing.scale(predictors['WHITE_POPULATION'].astype('float64'))
+    predictors['YEAR']=preprocessing.scale(predictors['YEAR'].astype('float64'))
+    predictors['WEEK_OF_YEAR']=preprocessing.scale(predictors['WEEK_OF_YEAR'].astype('float64'))
+    #predictors['AVG_TEMP']=preprocessing.scale(predictors['AVG_TEMP'].astype('float64'))
+    predictors['NUM_LIGHTS']=preprocessing.scale(predictors['NUM_LIGHTS'].astype('float64'))
+    predictors['NUM_HOUSES']=preprocessing.scale(predictors['NUM_HOUSES'].astype('float64'))
+    predictors['UNEMPLOYMENT_RATE']=preprocessing.scale(predictors['UNEMPLOYMENT_RATE'].astype('float64'))
+
     # split data into train and test sets
     pred_train, pred_test, tar_train, tar_test = train_test_split(predictors, target, 
 
-                                                                  test_size=.3, random_state=123)
+                                                                  test_size=.01, random_state=123)
     # specify the lasso regression model
     model=LassoLarsCV(cv=10, precompute=False).fit(pred_train,tar_train)
     # print variable names and regression coefficients
@@ -92,8 +106,54 @@ def create_model(conn, crime_type):
     print(rsquared_train)
     print ('test data R-square')
     print(rsquared_test)
+    run_model_on(model, crime_type)
     return model
 
+
+def run_model_on(model, crime_type):
+    global crime_data_test
+    global ans
+    data = crime_data_test[crime_data_test['Primary Type'] == crime_type]
+    #upper-case all DataFrame column names
+    data.columns = map(str.upper, data.columns)
+    # Data Management
+    data_clean = data.dropna()
+    # recode1 = {1:1, 2:0}
+    #data_clean['MALE']= data_clean['BIO_SEX'].map(recode1)
+    #select predictor variables and target variable as separate data sets 
+    result = data_clean[['ZIP', 'LAT', 'LON', 'PRIMARY TYPE', 'NUM_CRIMES' ]] 
+    predvar = data_clean[[ 'POPULATION', 'AFRICAN_AMERICAN', 'AMERICAN_INDIAN', 'ASIAN', 'WHITE_POPULATION', 'YEAR', 'WEEK_OF_YEAR',
+     'NUM_LIGHTS', 'NUM_HOUSES', 'UNEMPLOYMENT_RATE' ]]
+    target = data_clean['NUM_CRIMES']
+
+    # standardize predictors to have mean=0 and sd=1
+    predictors=predvar.copy()
+    #predictors['ZIP']=preprocessing.scale(predictors['ZIP'].astype('float64'))
+    predictors['POPULATION']=preprocessing.scale(predictors['POPULATION'].astype('float64'))
+    predictors['AFRICAN_AMERICAN']=preprocessing.scale(predictors['AFRICAN_AMERICAN'].astype('float64'))
+    predictors['AMERICAN_INDIAN']=preprocessing.scale(predictors['AMERICAN_INDIAN'].astype('float64'))
+    predictors['ASIAN']=preprocessing.scale(predictors['ASIAN'].astype('float64'))
+    predictors['WHITE_POPULATION']=preprocessing.scale(predictors['WHITE_POPULATION'].astype('float64'))
+    predictors['YEAR']=preprocessing.scale(predictors['YEAR'].astype('float64'))
+    predictors['WEEK_OF_YEAR']=preprocessing.scale(predictors['WEEK_OF_YEAR'].astype('float64'))
+    #predictors['AVG_TEMP']=preprocessing.scale(predictors['AVG_TEMP'].astype('float64'))
+    predictors['NUM_LIGHTS']=preprocessing.scale(predictors['NUM_LIGHTS'].astype('float64'))
+    predictors['NUM_HOUSES']=preprocessing.scale(predictors['NUM_HOUSES'].astype('float64'))
+    predictors['UNEMPLOYMENT_RATE']=preprocessing.scale(predictors['UNEMPLOYMENT_RATE'].astype('float64'))
+    #print crime type
+    print(crime_type)
+    print(dict(zip(predictors.columns, model.coef_)))
+    print('\n')
+    result['PREDICTED_NUM_CRIMES'] = model.predict(predictors)
+    ans[crime_type] = result
+    # MSE from training and test data
+    error = mean_squared_error(target, model.predict(predictors))
+    print ('MSE while running the model')
+    print(error)
+    # R-square from training and test data
+    rsquared=model.score(predictors,target)
+    print ('R-square while running the model')
+    print(rsquared)
 
 
 def index(request):
@@ -128,12 +188,21 @@ def extract_data(cursor, query):
 
 
 def extract_weekly_crime_data(conn):
-    global crime_data
-    crime_data = pd.read_sql('SELECT a.*, b.population, b.african_american, b.american_indian, b.asian, b.white_population\
+    global crime_data_train
+    global crime_data_test
+    crime_data_train = pd.read_sql("SELECT *\
                             FROM\
-                            testdb.temp_crime_data_grouped_weekly as a\
-                            inner join testdb.zipcode_population_data as b\
-                            on a.zip = b.zipcode;', con=conn)
+                            testdb.final_prediction_table \
+                            WHERE lat IS NOT NULL AND (year NOT LIKE  '2016' OR (week_of_year NOT LIKE '51' AND week_of_year NOT LIKE '52') ) \
+                            ;", con=conn)
+    crime_data_train =  crime_data_train.drop(['avg_temp'], axis=1)
+    crime_data_test = pd.read_sql("SELECT *\
+                            FROM\
+                            testdb.final_prediction_table \
+                            WHERE lat IS NOT NULL AND (year LIKE  '2016' AND (week_of_year LIKE '51' OR week_of_year LIKE '52') ) \
+                            ;", con=conn)
+    crime_data_test =  crime_data_test.drop(['avg_temp'], axis=1)
+
 
 
 def extract_raw_crime_data(conn):
@@ -191,6 +260,10 @@ def trends(request):
 
 
 
+def forecast(conn, each_crime_type):
+    create_model(conn, each_crime_type)
+
+
 def predict(request):
     global crime_type
     cursor,conn = db_conn()
@@ -202,21 +275,85 @@ def predict(request):
         for row in result_crime_type:
             if(row[0] not in crime_type):
                 crime_type.append(row[0])
-
     if(not models):
+        print('inside models')
         for each_crime_type in crime_type:
-            models[each_crime_type] = create_model(conn, each_crime_type)
-
-
+            models[each_crime_type] = forecast(conn, each_crime_type)
     template = loader.get_template('predict.html')
-    context = {}
+    print(ans)
+    assault_lat = ans['ASSAULT']['LAT'].tolist()
+
+    assault_lon = ans['ASSAULT']['LON'].tolist()
+    assault_val = ans['ASSAULT']['PREDICTED_NUM_CRIMES'].tolist()
+    assault_len = [x for x in range(0,len(assault_lat))]
+
+    robbery_lat = ans['ROBBERY']['LAT'].tolist()
+    robbery_lon = ans['ROBBERY']['LON'].tolist()
+    robbery_val = ans['ROBBERY']['PREDICTED_NUM_CRIMES'].tolist()
+    robbery_len = [x for x in range(0,len(robbery_lat))]
+
+    homicide_lat = ans['HOMICIDE']['LAT'].tolist()
+    homicide_lon = ans['HOMICIDE']['LON'].tolist()
+    homicide_val = ans['HOMICIDE']['PREDICTED_NUM_CRIMES'].tolist()
+    homicide_len = [x for x in range(0,len(homicide_lat))]
+
+    theft_lat = ans['THEFT']['LAT'].tolist()
+    theft_lon = ans['THEFT']['LON'].tolist()
+    theft_val = ans['THEFT']['PREDICTED_NUM_CRIMES'].tolist()
+    theft_len = [x for x in range(0,len(theft_lat))]
+
+    battery_lat = ans['BATTERY']['LAT'].tolist()
+    battery_lon = ans['BATTERY']['LON'].tolist()
+    battery_val = ans['BATTERY']['PREDICTED_NUM_CRIMES'].tolist()
+    battery_len = [x for x in range(0,len(battery_lat))]
+
+    burglary_lat = ans['BURGLARY']['LAT'].tolist()
+    burglary_lon = ans['BURGLARY']['LON'].tolist()
+    burglary_val = ans['BURGLARY']['PREDICTED_NUM_CRIMES'].tolist()
+    burglary_len = [x for x in range(0,len(burglary_lat))]
+
+    sexual_assault_lat = ans['CRIM SEXUAL ASSAULT']['LAT'].tolist()
+    sexual_assault_lon = ans['CRIM SEXUAL ASSAULT']['LON'].tolist()
+    sexual_assault_val = ans['CRIM SEXUAL ASSAULT']['PREDICTED_NUM_CRIMES'].tolist()
+    sexual_assault_len = [x for x in range(0,len(sexual_assault_val))]
+
+    context = {'ans': ans, 
+    'assault_lat': assault_lat,  
+    'assault_lon': assault_lon,  
+    'assault_val': assault_val,
+    'assault_len': assault_len, 
+
+    'robbery_lat': robbery_lat,  
+    'robbery_lon': robbery_lon,  
+    'robbery_val': robbery_val,
+    'robbery_len': robbery_len, 
+
+    'homicide_lat': homicide_lat,  
+    'homicide_lon': homicide_lon,  
+    'homicide_val': homicide_val, 
+    'homicide_len': homicide_len,
+
+    'theft_lat': theft_lat,  
+    'theft_lon': theft_lon,  
+    'theft_val': theft_val,
+    'theft_len': theft_len, 
+
+    'battery_lat': battery_lat,  
+    'battery_lon': battery_lon,  
+    'battery_val': battery_val, 
+    'battery_len': battery_len,
+
+    'burglary_lat': burglary_lat,  
+    'burglary_lon': burglary_lon,  
+    'burglary_val': burglary_val, 
+    'burglary_len': burglary_len,
+
+    'sexual_assault_lat': sexual_assault_lat,  
+    'sexual_assault_lon': sexual_assault_lon,  
+    'sexual_assault_val': sexual_assault_val,
+    'sexual_assault_len': sexual_assault_len
+    }
     return HttpResponse(template.render(context, request))
-
-
-
-
-
-
 
 
 
