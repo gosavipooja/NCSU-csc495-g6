@@ -16,7 +16,6 @@ def dic_val_or_null(crime_data, year_crime):
 	else:
 		return 0
 
-
 @register.filter(name='get_val')
 def get_val(list_name, index):
 	return list_name[index]

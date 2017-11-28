@@ -282,76 +282,89 @@ def predict(request):
     template = loader.get_template('predict.html')
     print(ans)
     assault_lat = ans['ASSAULT']['LAT'].tolist()
-
     assault_lon = ans['ASSAULT']['LON'].tolist()
     assault_val = ans['ASSAULT']['PREDICTED_NUM_CRIMES'].tolist()
+    assault_zip = ans['ASSAULT']['ZIP'].tolist()
     assault_len = [x for x in range(0,len(assault_lat))]
 
     robbery_lat = ans['ROBBERY']['LAT'].tolist()
     robbery_lon = ans['ROBBERY']['LON'].tolist()
     robbery_val = ans['ROBBERY']['PREDICTED_NUM_CRIMES'].tolist()
     robbery_len = [x for x in range(0,len(robbery_lat))]
+    robbery_zip = ans['ROBBERY']['ZIP'].tolist()
 
     homicide_lat = ans['HOMICIDE']['LAT'].tolist()
     homicide_lon = ans['HOMICIDE']['LON'].tolist()
     homicide_val = ans['HOMICIDE']['PREDICTED_NUM_CRIMES'].tolist()
     homicide_len = [x for x in range(0,len(homicide_lat))]
+    homicide_zip = ans['HOMICIDE']['ZIP'].tolist()
 
     theft_lat = ans['THEFT']['LAT'].tolist()
     theft_lon = ans['THEFT']['LON'].tolist()
     theft_val = ans['THEFT']['PREDICTED_NUM_CRIMES'].tolist()
     theft_len = [x for x in range(0,len(theft_lat))]
+    theft_zip = ans['THEFT']['ZIP'].tolist()
 
     battery_lat = ans['BATTERY']['LAT'].tolist()
     battery_lon = ans['BATTERY']['LON'].tolist()
     battery_val = ans['BATTERY']['PREDICTED_NUM_CRIMES'].tolist()
     battery_len = [x for x in range(0,len(battery_lat))]
+    battery_zip = ans['BATTERY']['ZIP'].tolist()
 
     burglary_lat = ans['BURGLARY']['LAT'].tolist()
     burglary_lon = ans['BURGLARY']['LON'].tolist()
     burglary_val = ans['BURGLARY']['PREDICTED_NUM_CRIMES'].tolist()
     burglary_len = [x for x in range(0,len(burglary_lat))]
+    burglary_zip = ans['BURGLARY']['ZIP'].tolist()
 
     sexual_assault_lat = ans['CRIM SEXUAL ASSAULT']['LAT'].tolist()
     sexual_assault_lon = ans['CRIM SEXUAL ASSAULT']['LON'].tolist()
     sexual_assault_val = ans['CRIM SEXUAL ASSAULT']['PREDICTED_NUM_CRIMES'].tolist()
     sexual_assault_len = [x for x in range(0,len(sexual_assault_val))]
+    sexual_zip = ans['CRIM SEXUAL ASSAULT']['ZIP'].tolist()
 
     context = {'ans': ans, 
     'assault_lat': assault_lat,  
     'assault_lon': assault_lon,  
     'assault_val': assault_val,
     'assault_len': assault_len, 
+    'assault_zip': assault_zip,
 
     'robbery_lat': robbery_lat,  
     'robbery_lon': robbery_lon,  
     'robbery_val': robbery_val,
-    'robbery_len': robbery_len, 
+    'robbery_len': robbery_len,
+    'robbery_zip': robbery_zip, 
 
     'homicide_lat': homicide_lat,  
     'homicide_lon': homicide_lon,  
     'homicide_val': homicide_val, 
     'homicide_len': homicide_len,
+    'homicide_zip': homicide_zip,
 
     'theft_lat': theft_lat,  
     'theft_lon': theft_lon,  
     'theft_val': theft_val,
     'theft_len': theft_len, 
+    'theft_zip': theft_zip,
 
     'battery_lat': battery_lat,  
     'battery_lon': battery_lon,  
     'battery_val': battery_val, 
     'battery_len': battery_len,
+    'battery_zip': battery_zip,
 
     'burglary_lat': burglary_lat,  
     'burglary_lon': burglary_lon,  
     'burglary_val': burglary_val, 
     'burglary_len': burglary_len,
+    'burglary_zip': burglary_zip,
 
     'sexual_assault_lat': sexual_assault_lat,  
     'sexual_assault_lon': sexual_assault_lon,  
     'sexual_assault_val': sexual_assault_val,
-    'sexual_assault_len': sexual_assault_len
+    'sexual_assault_len': sexual_assault_len,
+    'sexual_zip': sexual_zip
     }
     return HttpResponse(template.render(context, request))
 

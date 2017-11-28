@@ -12,16 +12,32 @@
 </div>
 
 <div class="container-fluid">
-    <div class="row">
-        <div class="col-lg-6" id = 'map_assault' style="width: 600px; height: 400px" ></div>
-        <div class="col-lg-7" style="width: 60px;"></div>
-        <div class="col-lg-8" id = 'map_battery' style="width: 600px; height: 400px; " ></div>
+<span class="border-0">
+  
+</span>
+    <div class="row" style= "border: 2px solid black; margin: 35px;">
+        <div class="col-lg-6" id = 'map_assault' style="width: 600px; height: 400px; padding-left: 20px; margin: 2px;" ></div>
+        <div class="col-lg-7" style="width: 470px;"> <h1>CRIME TYPE: ASSAULT</h1></div>
     </div>
-    <div class="row">
-        <div class="col-lg-6" id = 'map_assault' style="width: 600px; height: 400px" >
-        </div>
-        <div class="col-lg-6">
-        </div>
+    <div id="cc" style="height: 30px"></div>
+    <div class="row" style= "border: 2px solid black; margin: 35px;">
+        <div class="col-lg-7" style="width: 470px;"><h1>CRIME TYPE: BATTERY</h1></div>
+        <div class="col-lg-8" id = 'map_battery' style="width: 600px; height: 400px; margin: 2px" ></div>
+    </div>
+    <div id="cc" style="height: 30px"></div>
+    <div class="row" style= "border: 2px solid black; margin: 35px">
+        <div class="col-lg-6" id = 'map_burglary' style="width: 600px; height: 400px; padding-left: 20px; margin: 2px;" ></div>
+        <div class="col-lg-7" style="width: 470px;">CRIME TYPE: BURGLARY</div>
+    </div>
+    <div id="cc" style="height: 30px"></div>
+    <div class="row" style= "border: 2px solid black; margin: 35px;">
+        <div class="col-lg-7" style="width: 470px;">CRIME TYPE: ROBBERY</div>
+        <div class="col-lg-8" id = 'map_robbery' style="width: 600px; height: 400px; margin: 2px; " ></div>
+    </div>
+    <div id="cc" style="height: 30px"></div>
+    <div class="row" style= "border: 2px solid black; margin: 35px;">
+        <div class="col-lg-6" id = 'map_theft' style="width: 600px; height: 400px; padding-left: 20px; margin: 2px;" ></div>
+        <div class="col-lg-7" style="width: 470px;">CRIME TYPE: THEFT</div>
     </div>
 </div>
     
@@ -44,7 +60,7 @@
             var marker = new google.maps.Marker({
               position: {lat: {{assault_lat|get_val:i}}, lng: {{assault_lon|get_val:i}}},
               map: map,
-              title: '{{assault_val|get_val:i}}'
+              title: 'Zip code: {{assault_zip|get_val:i}}; \n Predicted crime:{{assault_val|get_val:i}}'
             });
 
 
@@ -70,18 +86,6 @@
 </script>
 
 
-
-
-<!--     <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKX0EbfMDRDspKyNMXNE7rmvS9ebzySJE&libraries=visualization&callback=initialize_assault">
-    </script>
- -->
-
- <div id="cc" style="height: 30px">
-</div>
-
-
-
 <script type="text/javascript">
 
      var map, heatmap;
@@ -100,7 +104,7 @@
             var marker = new google.maps.Marker({
               position: {lat: {{battery_lat|get_val:i}}, lng: {{battery_lon|get_val:i}}},
               map: map,
-              title: '{{battery_val|get_val:i}}'
+              title: 'Zip code: {{battery_zip|get_val:i}}; \n Predicted crime: {{battery_val|get_val:i}}'
             });
 
 
@@ -123,20 +127,6 @@
 </script>
 
 
-
-
-<!--     <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKX0EbfMDRDspKyNMXNE7rmvS9ebzySJE&libraries=visualization&callback=initialize_battery">
-    </script>
- -->
-<div id="cc" style="height: 30px">
-</div>
-
-
-<div id = 'map_theft' style="width: 600px; height: 400px" >
-    
-</div>
-
 <script type="text/javascript">
 
      var map, heatmap;
@@ -155,7 +145,7 @@
             var marker = new google.maps.Marker({
               position: {lat: {{theft_lat|get_val:i}}, lng: {{theft_lon|get_val:i}}},
               map: map,
-              title: '{{theft_val|get_val:i}}'
+              title: 'Zip code: {{theft_zip|get_val:i}};  \n Predicted crimes {{theft_val|get_val:i}}'
             });
 
 
@@ -180,19 +170,6 @@
 </script>
 
 
-
-
-<!--     <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKX0EbfMDRDspKyNMXNE7rmvS9ebzySJE&libraries=visualization&callback=initialize_theft">
-    </script>
- --><div id="cc" style="height: 30px">
-</div>
-
-
-<div id = 'map_burglary' style="width: 600px; height: 400px" >
-    
-</div>
-
 <script type="text/javascript">
 
      var map, heatmap;
@@ -210,7 +187,7 @@
             var marker = new google.maps.Marker({
               position: {lat: {{burglary_lat|get_val:i}}, lng: {{burglary_lon|get_val:i}}},
               map: map,
-              title: '{{burglary_val|get_val:i}}'
+              title: 'Zip code: {{burglary_zip|get_val:i}}; \n Predicted crime: {{burglary_val|get_val:i}}'
             });
 
 
@@ -241,14 +218,6 @@
 
 
 
-
-<div id="cc" style="height: 30px">
-</div>
-
-<div id = 'map_robbery' style="width: 600px; height: 400px" >
-    
-</div>
-
 <script type="text/javascript">
 
      var map, heatmap;
@@ -267,7 +236,7 @@
             var marker = new google.maps.Marker({
               position: {lat: {{robbery_lat|get_val:i}}, lng: {{robbery_lon|get_val:i}}},
               map: map,
-              title: '{{robbery_val|get_val:i}}'
+              title: 'Zip code: {{robbery_zip|get_val:i}}; \n Predicted crime: {{robbery_val|get_val:i}}'
             });
 
 
@@ -275,7 +244,7 @@
 
            heatmap = new google.maps.visualization.HeatmapLayer({
           data: [
-              {% for i in burglary_len %}
+              {% for i in robbery_len %}
 
                 { location: new google.maps.LatLng({{robbery_lat|get_val:i}}, {{robbery_lon|get_val:i}}), weight: 50*{{robbery_val|get_val:i}}},
 
