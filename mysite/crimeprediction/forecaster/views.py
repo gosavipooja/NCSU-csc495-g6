@@ -252,7 +252,9 @@ def trends(request):
         data_crimes_per_year = extract_data(cursor, query_crimes_per_year)
 
     if(not location_crimes_per_year):
-        query_location_crimes_per_year = """SELECT * FROM testdb.crimes_by_location_description ORDER BY record_year, `Location Description`"""
+        query_location_crimes_per_year = """SELECT * FROM testdb.crimes_by_location_description 
+                                            WHERE `Location Description` IN ('ABANDONED BUILDING', 'STREET', 'ALLEY', 'SIDEWALK', 'APARTMENT', 'RESIDENCE', 'SMALL RETAIL STORE')
+                                            ORDER BY record_year, `Location Description`"""
         location_crimes_per_year = extract_data(cursor, query_location_crimes_per_year)
 
     weekdata = ['first', 'second']
@@ -269,6 +271,7 @@ def trends(request):
 
     locations_list = []
     trend_location_data = {'2012': [], '2013': [], '2014': [], '2015': [], '2016': [], '2017': [] }
+    #trend_location_data = {'2012': []}
     for row in location_crimes_per_year:
         if(row[1] not in locations_list):
             locations_list.append(row[1])
@@ -276,7 +279,7 @@ def trends(request):
             trend_location_data[str(row[2])].append(row[0])
 
 
-
+    print(locations_list)
     print(trends_crime_data)
     print(trend_location_data)
     template = loader.get_template('trends.html')

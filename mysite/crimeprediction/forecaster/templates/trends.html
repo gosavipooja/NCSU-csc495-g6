@@ -57,7 +57,7 @@
 
     <div id="location-cont" style="width:100%; height:400px;"></div>
     <script type="text/javascript">
-        Highcharts.chart('location-cont', {
+Highcharts.chart('location-cont', {
     chart: {
         type: 'bar'
     },
@@ -65,11 +65,10 @@
         text: 'Crimes By Location Per year'
     },
     xAxis: {
-        categories: [
-                {% for location in location_list%}
-                    {{location}},
-                {% endfor %} ]
-            },
+        categories: [            {% for loc in locations_list %}
+                                    '{{loc}}',
+                                {% endfor %}
+],
         title: {
             text: null
         }
@@ -105,24 +104,19 @@
     credits: {
         enabled: false
     },
-      series: [
-        {% for loc in location_data %}
+    series: [
+    {% for loca in location_data %}
     {
-        name: '{{loc}}',
+        name: '{{loca}}',
         data: [
-            {% for yr in year %}
-                {% with yr|addstr:";"|addstr:crime as templa %}
-                    {{crime_data|dic_val_or_null:templa}},
-                {% endwith %}
-
-            {% endfor %}
-            ]
-    },
+        {% for data in location_data|get_val:loca %}
+            {{data}},
         {% endfor %}
-
+        ]
+    },
+    {% endfor %}
     ]
-});
-    </script>
+});    </script>
 
 <div id="map"></div>
 
