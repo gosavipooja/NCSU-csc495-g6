@@ -8,10 +8,14 @@
 {% block body %}
 
 <div id="container">
-<div id="cc" style="height: 30px">
-</div>
-
-<div id="cont" style="width:100%; height:400px;"></div>
+<div class="container-fluid" style="margin: 40px;"> <h1> Analyzing the past trends of the city of Chicago</h1>
+    <ul>
+        <li>
+            You can click on the legends to select/deselect the data for that variable
+        </li>
+    </ul>
+<div class="row" style="border: 2px solid black;  margin: 40px;"> <h3> How has the frequency of different categories of crimes varied over the years? </h3>
+    <div id="cont" style="width:80%; height:400px;border: 2px solid black; margin: 80px;"></div>
     <script type="text/javascript">
         Highcharts.chart('cont', {
             chart: {
@@ -54,8 +58,10 @@
         });
     
     </script>
+</div>
 
-    <div id="location-cont" style="width:100%; height:400px;"></div>
+<div class="row" style="border: 2px solid black; margin: 40px;"> <h3> Where have most of the crimes occurred? </h3>
+    <div id="location-cont" style="width:80%; height:400px;border: 2px solid black; margin: 80px;"></div>
     <script type="text/javascript">
 Highcharts.chart('location-cont', {
     chart: {
@@ -117,9 +123,10 @@ Highcharts.chart('location-cont', {
     {% endfor %}
     ]
 });    </script>
+</div>
 
-
-    <div id="arrests-cont" style="width:100%; height:400px;"></div>
+<div class="row" style="border: 2px solid black; margin: 40px;"> <h3> How many arrests were made for each category of crime over the past? </h3>
+    <div id="arrests-cont" style="width:80%; height:400px;border: 2px solid black; margin: 80px;"></div>
     <script type="text/javascript">
         Highcharts.chart('arrests-cont', {
     chart: {
@@ -167,6 +174,10 @@ Highcharts.chart('location-cont', {
     ]
 });
     </script>
+</div>
+</div>
+</div>
+
 <div id="map"></div>
 
 <script type="text/javascript" src= "{% static 'js/heatmap.js' %}">
